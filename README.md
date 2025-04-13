@@ -1,16 +1,7 @@
-# dog_breed_identifier
+Proiect POOJA 2025 ETTI - Aplicație mobilă de detecție a raselor câinilor
+Grupa 421A:
+  - Pacioga Eduard-Andrei
+  - Visean Pompiliu-Daniel
+  - Pismis Andrei-Marius
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Template UI folosit: https://dribbble.com/shots/16021257--Pet-Identifier-App
