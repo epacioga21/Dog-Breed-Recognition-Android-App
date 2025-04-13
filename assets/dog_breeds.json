@@ -1,0 +1,1442 @@
+[
+  {
+    "name": "affenpinscher",
+    "description": "Un câine de talie mică, cunoscut pentru personalitatea sa curajoasă și aspectul său distinctiv, asemănător unei maimuțe.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "3–6 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Curajos, alert, jucăuș",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://cdn.royalcanin-weshare-online.io/NyLkHWsBaxEApS7LaR3j/v5/bd121h-hub-affenpinscher-adult-black-and-white"
+  },
+  {
+    "name": "afghan_hound",
+    "description": "Cunoscut pentru blana sa lungă și mătăsoasă, Afghan Hound este un câine elegant și independent, originar din Afganistan.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "23–27 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Independent, demn, afectuos",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.zooplus.co.uk/magazine/wp-content/uploads/2019/01/Afghan-hound-UK.jpg"
+  },
+  {
+    "name": "african_hunting_dog",
+    "description": "Cunoscut și sub numele de câinele sălbatic african, este un prădător eficient, recunoscut pentru urechile sale mari și blana pestriță.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "18–36 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Social, energic, inteligent",
+      "activity_level": "Foarte ridicată"
+    },
+    "image_url": "https://www.africanwildlifeconservationfund.org/storage/2020/11/Wild_Dog_Side_Profile.png"
+  },
+  {
+    "name": "airedale",
+    "description": "Cel mai mare dintre terrieri, Airedale este un câine inteligent și versatil, folosit atât pentru vânătoare cât și pentru companie.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "20–30 kg",
+      "lifespan": "10–13 ani",
+      "temperament": "Inteligent, curajos, prietenos",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2024-03/Airedale-Terrier.jpg?itok=PIRE7I7h"
+  },
+  {
+    "name": "american_staffordshire_terrier",
+    "description": "Un câine puternic și musculos, cunoscut pentru loialitatea și curajul său, adesea confundat cu pitbull.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "18–27 kg",
+      "lifespan": "12–16 ani",
+      "temperament": "Curajos, loial, inteligent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.ukcdogs.com/american-staffordshire-terrier"
+  },
+  {
+    "name": "appenzeller",
+    "description": "Un câine de cioban din Elveția, energic și inteligent, excelent pentru activități în aer liber.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "22–32 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Energic, loial, vigilent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.sbs.com.au/yourlanguage/swiss-appenzeller-dog"
+  },
+  {
+    "name": "australian_terrier",
+    "description": "Un terrier mic și robust, originar din Australia, cunoscut pentru blana sa aspră și personalitatea sa curajoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "6–7 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Curajos, alert, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.dogzone.com/breeds/australian-terrier/"
+  },
+  {
+    "name": "basenji",
+    "description": "Cunoscut drept 'câinele care nu latră', Basenji este un câine independent și curat, originar din Africa.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "9–11 kg",
+      "lifespan": "13–14 ani",
+      "temperament": "Independent, curios, tăcut",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://basenji.org/"
+  },
+  {
+    "name": "basset",
+    "description": "Un câine scund cu urechi lungi și un miros excelent, folosit inițial pentru vânătoare.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "20–29 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Blând, relaxat, prietenos",
+      "activity_level": "Scăzută"
+    },
+    "image_url": "https://www.akc.org/dog-breeds/basset-hound/"
+  },
+  {
+    "name": "beagle",
+    "description": "Un câine de talie mică până la medie, cunoscut pentru personalitatea sa prietenoasă și mirosul său excelent.",
+    "attributes": {
+      "size": "Mică-Medie",
+      "weight": "9–16 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Prietenoasă, curios, vesel",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.beaglepro.com/"
+  },
+  {
+    "name": "bedlington_terrier",
+    "description": "Un terrier cu aspect de miel, cunoscut pentru blana sa ondulată și natura sa curajoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "7–10 kg",
+      "lifespan": "12–16 ani",
+      "temperament": "Curajos, inteligent, afectuos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.bedlingtonterrier.co.uk/"
+  },
+  {
+    "name": "bernese_mountain_dog",
+    "description": "Un câine mare și puternic, originar din Elveția, cunoscut pentru blana sa tricoloră și natura sa blândă.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "36–50 kg",
+      "lifespan": "7–10 ani",
+      "temperament": "Blând, loial, calm",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.bernese-mountain-dog.com/"
+  },
+  {
+    "name": "black-and-tan_coonhound",
+    "description": "Un câine de vânătoare excelent, cunoscut pentru abilitățile sale de urmărire și blana sa distinctivă.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "23–34 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Prietenos, relaxat, inteligent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.ukcdogs.com/black-and-tan-coonhound"
+  },
+  {
+    "name": "blenheim_spaniel",
+    "description": "Un tip de Cavalier King Charles Spaniel, cunoscut pentru blana sa lungă și personalitatea sa afectuoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "5–8 kg",
+      "lifespan": "9–14 ani",
+      "temperament": "Afectuos, blând, sociabil",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.thekennelclub.org.uk/breed/cavalier-king-charles-spaniel/"
+  },
+  {
+    "name": "bloodhound",
+    "description": "Un câine mare cu un miros excepțional, folosit adesea în operațiuni de căutare și salvare.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "36–50 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Blând, persistent, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.bloodhounds.org/"
+  },
+  {
+    "name": "bluetick",
+    "description": "Un câine de vânătoare energetic, cunoscut pentru modelul său de blană pestriț și abilitățile sale de urmărire.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "20–36 kg",
+      "lifespan": "11–12 ani",
+      "temperament": "Energic, loial, inteligent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.ukcdogs.com/bluetick-coonhound"
+  },
+  {
+    "name": "border_collie",
+    "description": "Considerat cel mai inteligent câine, Border Collie este excelent pentru activități care necesită agilitate și concentrare.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "12–20 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Inteligent, energic, responsiv",
+      "activity_level": "Foarte ridicată"
+    },
+    "image_url": "https://www.bordercollie.org/"
+  },
+  {
+    "name": "border_terrier",
+    "description": "Un terrier mic și robust, cunoscut pentru personalitatea sa curajoasă și adaptabilitatea sa.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "5–7 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Curajos, inteligent, afectuos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.thekennelclub.org.uk/breed/border-terrier/"
+  },
+  {
+    "name": "borzoi",
+    "description": "Un câine de vânătoare rus, elegant și rapid, cunoscut pentru blana sa lungă și grația sa.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "34–47 kg",
+      "lifespan": "9–14 ani",
+      "temperament": "Calm, demn, independent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.borzoiclubofamerica.org/"
+  },
+  {
+    "name": "boston_bull",
+    "description": "Un câine mic și compact, cunoscut pentru personalitatea sa prietenoasă și aspectul său similar cu un frac.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "5–11 kg",
+      "lifespan": "11–13 ani",
+      "temperament": "Prietenoasă, inteligent, vesel",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.akc.org/dog-breeds/boston-terrier/"
+  },
+  {
+    "name": "bouvier_des_flandres",
+    "description": "Un câine de lucru puternic și versatil, originar din Belgia, folosit atât pentru păzire cât și pentru conducerea oilor.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "36–45 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Protectiv, inteligent, calm",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.bouvier.org/"
+  },
+  {
+    "name": "boxer",
+    "description": "Un câine musculos și energic, cunoscut pentru loialitatea și natura sa jucăușă.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "25–32 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Jucăuș, energic, loial",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.boxerclubofamerica.org/"
+  },
+  {
+    "name": "brabancon_griffon",
+    "description": "Un câine mic cu o față expresivă și personalitate mare, originar din Belgia.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "4–5 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Alert, inteligent, afectuos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.akc.org/dog-breeds/griffon-bruxellois/"
+  },
+  {
+    "name": "briard",
+    "description": "Un câine de cioban francez cu blană lungă, cunoscut pentru loialitatea și inteligența sa.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "25–40 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Loial, inteligent, protectiv",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.briardclubofamerica.org/"
+  },
+  {
+    "name": "brittany_spaniel",
+    "description": "Un câine de vânătoare energic și inteligent, originar din Franța.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "14–18 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Energic, inteligent, prietenos",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.akc.org/dog-breeds/brittany/"
+  },
+  {
+    "name": "bull_mastiff",
+    "description": "Un câine mare și puternic, creat pentru a proteja proprietăți, cunoscut pentru natura sa calmă și protectivă.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "45–60 kg",
+      "lifespan": "8–10 ani",
+      "temperament": "Protectiv, loial, calm",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.bullmastiff.us/"
+  },
+  {
+    "name": "cairn",
+    "description": "Un terrier mic și robust, faimos pentru rolul său în filmul 'Vrăjitorul din Oz'.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "6–7 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Vesel, curajos, independent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.cairnterrier.org/"
+  },
+  {
+    "name": "cardigan",
+    "description": "Unul dintre cele două rase de Corgi, cu o coadă lungă și un corp mai mare decât Pembroke.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "11–17 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Inteligent, afectuos, alert",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.cardigancorgis.com/"
+  },
+  {
+    "name": "chesapeake_bay_retriever",
+    "description": "Un câine de vânătoare excelent în apă, cunoscut pentru blana sa rezistentă la apă și loialitatea față de stăpân.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "25–36 kg",
+      "lifespan": "10–13 ani",
+      "temperament": "Inteligent, protector, loial",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.chessie.org/"
+  },
+  {
+    "name": "chihuahua",
+    "description": "Cea mai mică rasă de câini din lume, cunoscută pentru personalitatea sa mare și loialitatea față de stăpân.",
+    "attributes": {
+      "size": "Foarte mică",
+      "weight": "1–3 kg",
+      "lifespan": "14–16 ani",
+      "temperament": "Curajos, alert, loial",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.chihuahuaclub.com/"
+  },
+  {
+    "name": "chow",
+    "description": "Un câine cu aspect de leu, cunoscut pentru limba sa albastră și natura sa independentă.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "20–32 kg",
+      "lifespan": "9–15 ani",
+      "temperament": "Demn, independent, loial",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.chowclub.org/"
+  },
+  {
+    "name": "clumber",
+    "description": "Cel mai masiv dintre spanieli, cunoscut pentru natura sa calmă și blana sa densă.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "25–39 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Blând, loial, calm",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.akc.org/dog-breeds/clumber-spaniel/"
+  },
+  {
+    "name": "cocker_spaniel",
+    "description": "Un câine de talie mică până la medie, cunoscut pentru urechile sale lungi și personalitatea sa afectuoasă.",
+    "attributes": {
+      "size": "Mică-Medie",
+      "weight": "11–14 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Afectuos, vesel, jucăuș",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.asc-cockerspaniel.org/"
+  },
+  {
+    "name": "collie",
+    "description": "Un câine inteligent și elegant, faimos datorită serialului 'Lassie'.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "23–34 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Inteligent, blând, protectiv",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.collieclubofamerica.org/"
+  },
+  {
+    "name": "curly-coated_retriever",
+    "description": "Un câine de vânătoare cu blană ondulată distinctivă, cunoscut pentru inteligența și independența sa.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "32–41 kg",
+      "lifespan": "9–14 ani",
+      "temperament": "Inteligent, independent, loial",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.ccrca.org/"
+  },
+  {
+    "name": "dandie_dinmont",
+    "description": "Un terrier mic cu un corp lung și picioare scurte, cunoscut pentru personalitatea sa curajoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "8–11 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Independent, curajos, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.dandie.com/"
+  },
+  {
+    "name": "dhole",
+    "description": "Cunoscut și sub numele de câinele sălbatic asiatic, este un prădător social care trăiește în haită.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "15–20 kg",
+      "lifespan": "10–13 ani",
+      "temperament": "Social, inteligent, energic",
+      "activity_level": "Foarte ridicată"
+    },
+    "image_url": "https://wildlifeconservationnetwork.org/wildlife/dhole/"
+  },
+  {
+    "name": "dingo",
+    "description": "Un câine sălbatic originar din Australia, cunoscut pentru adaptabilitatea sa la medii dure.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "13–20 kg",
+      "lifespan": "10–14 ani",
+      "temperament": "Independent, inteligent, rezistent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.australiangeographic.com.au/topics/wildlife/2019/07/the-australian-dingo/"
+  },
+  {
+    "name": "doberman",
+    "description": "Un câine de pază inteligent și musculos, cunoscut pentru loialitatea și viteza sa.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "32–45 kg",
+      "lifespan": "10–13 ani",
+      "temperament": "Loial, inteligent, protectiv",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.dpca.org/"
+  },
+  {
+    "name": "english_foxhound",
+    "description": "Un câine de vânătoare tradițional din Anglia, cunoscut pentru rezistența și mirosul său excelent.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "29–32 kg",
+      "lifespan": "10–13 ani",
+      "temperament": "Prietenoasă, activ, social",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.akc.org/dog-breeds/english-foxhound/"
+  },
+  {
+    "name": "english_setter",
+    "description": "Un câine de vânătoare elegant, cunoscut pentru blana sa pătată și natura sa blândă.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "20–36 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Blând, inteligent, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.englishsetterassociation.org/"
+  },
+  {
+    "name": "english_springer",
+    "description": "Un spaniel de talie medie, excelent pentru vânătoare și companie, cunoscut pentru energia sa.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "18–25 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Prietenoasă, energic, inteligent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.essfta.org/"
+  },
+  {
+    "name": "entlebucher",
+    "description": "Cel mai mic dintre cei patru câini de munte elvețieni, cunoscut pentru energia și inteligența sa.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "20–30 kg",
+      "lifespan": "11–13 ani",
+      "temperament": "Energic, inteligent, loial",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.entlebucher.org/"
+  },
+  {
+    "name": "eskimo_dog",
+    "description": "Un câine robust și rezistent la frig, folosit inițial pentru tragerea saniei.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "23–48 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Prietenoasă, inteligent, independent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.ukpets.com/dog-breeds/american-eskimo-dog"
+  },
+  {
+    "name": "flat-coated_retriever",
+    "description": "Un câine de vânătoare vesel și energic, cunoscut pentru blana sa netedă și negră.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "27–36 kg",
+      "lifespan": "8–10 ani",
+      "temperament": "Vesel, energic, prietenos",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.fcrc.info/"
+  },
+  {
+    "name": "french_bulldog",
+    "description": "Un câine mic și compact, cunoscut pentru urechile sale de liliac și personalitatea sa relaxată.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "9–14 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Prietenoasă, jucăuș, adaptabil",
+      "activity_level": "Scăzută"
+    },
+    "image_url": "https://www.frenchbulldogclub.org/"
+  },
+  {
+    "name": "german_shepherd",
+    "description": "Un câine inteligent și versatil, folosit pe scară largă în serviciile de poliție și armată.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "30–40 kg",
+      "lifespan": "9–13 ani",
+      "temperament": "Inteligent, loial, protectiv",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.germanshepherddog.com/"
+  },
+  {
+    "name": "german_short-haired_pointer",
+    "description": "Un câine de vânătoare versatil, cunoscut pentru inteligența și energia sa.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "20–32 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Inteligent, energic, prietenos",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.gspca.org/"
+  },
+  {
+    "name": "giant_schnauzer",
+    "description": "Un câine mare și puternic, cunoscut pentru barba sa distinctivă și natura sa protectoare.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "25–48 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Protectiv, inteligent, loial",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.giantschnauzerclubofamerica.org/"
+  },
+  {
+    "name": "golden_retriever",
+    "description": "Unul dintre cele mai populare câini de companie, cunoscut pentru natura sa blândă și inteligentă.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "25–34 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Prietenoasă, inteligent, devotat",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.grca.org/"
+  },
+  {
+    "name": "gordon_setter",
+    "description": "Un câine de vânătoare scoțian, cunoscut pentru blana sa negră și maro și natura sa demnă.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "20–36 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Demn, inteligent, loial",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.gordonsetter.com/"
+  },
+  {
+    "name": "great_dane",
+    "description": "Unul dintre cei mai mari câini din lume, cunoscut pentru natura sa blândă și statura sa impunătoare.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "50–82 kg",
+      "lifespan": "7–10 ani",
+      "temperament": "Blând, prietenos, demn",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.gdca.org/"
+  },
+  {
+    "name": "great_pyrenees",
+    "description": "Un câine de păzire masiv, originar din Munții Pirinei, cunoscut pentru blana sa albă și natura sa protectoare.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "36–54 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Calm, protectiv, independent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.pyr.org/"
+  },
+  {
+    "name": "greater_swiss_mountain_dog",
+    "description": "Un câine de lucru robust și puternic, originar din Elveția, cunoscut pentru blana sa tricoloră.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "45–64 kg",
+      "lifespan": "8–11 ani",
+      "temperament": "Prietenoasă, loial, calm",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.swissys.com/"
+  },
+  {
+    "name": "groenendael",
+    "description": "Un tip de câine ciobănesc belgian, cunoscut pentru blana sa lungă și neagră și inteligența sa.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "25–30 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Inteligent, alert, protectiv",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.belgianshepherddog.com/"
+  },
+  {
+    "name": "ibizan_hound",
+    "description": "Un câine de vânătoare elegant, originar din Spania, cunoscut pentru urechile sale mari și corpul său zvelt.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "20–29 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Independent, inteligent, jucăuș",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.ibizanhound.com/"
+  },
+  {
+    "name": "irish_setter",
+    "description": "Un câine de vânătoare cu blana roșcată strălucitoare, cunoscut pentru personalitatea sa energică și prietenoasă.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "27–32 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Prietenoasă, energic, inteligent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.irishsetterclub.org/"
+  },
+  {
+    "name": "irish_terrier",
+    "description": "Un terrier roșu curajos și energic, originar din Irlanda, cunoscut pentru loialitatea sa.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "11–12 kg",
+      "lifespan": "13–15 ani",
+      "temperament": "Curajos, inteligent, loial",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.irishterrierclub.com/"
+  },
+  {
+    "name": "irish_water_spaniel",
+    "description": "Cel mai mare dintre spanieli, cunoscut pentru blana sa ondulată și rezistenta la apă.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "25–30 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Inteligent, jucăuș, independent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.iwsc.org/"
+  },
+  {
+    "name": "irish_wolfhound",
+    "description": "Una dintre cele mai înalte rase de câini, cunoscută pentru statura sa impunătoare și natura sa blândă.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "48–82 kg",
+      "lifespan": "6–8 ani",
+      "temperament": "Blând, răbdător, demn",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.iwclubofamerica.org/"
+  },
+  {
+    "name": "italian_greyhound",
+    "description": "Un câine mic și grațios, cunoscut pentru viteza sa și natura sa afectuoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "3–5 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Afectuos, sensibil, jucăuș",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.italiangreyhound.org/"
+  },
+  {
+    "name": "japanese_spaniel",
+    "description": "Un câine mic și elegant, cunoscut pentru blana sa lungă și expresia sa dulce.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "3–6 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Afectuos, inteligent, demn",
+      "activity_level": "Scăzută"
+    },
+    "image_url": "https://www.akc.org/dog-breeds/japanese-chin/"
+  },
+  {
+    "name": "keeshond",
+    "description": "Un câine de talie medie cu blană densă, cunoscut pentru expresia sa 'îmbrăcată' și natura sa prietenoasă.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "16–18 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Prietenoasă, alert, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.keeshond.org/"
+  },
+  {
+    "name": "kelpie",
+    "description": "Un câine de cioban australian, cunoscut pentru energia și inteligența sa.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "14–20 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Energic, inteligent, loial",
+      "activity_level": "Foarte ridicată"
+    },
+    "image_url": "https://www.ankc.org.au/breeds/australian-kelpie/"
+  },
+  {
+    "name": "kerry_blue_terrier",
+    "description": "Un terrier irlandez cu blană moale și ondulată, cunoscut pentru versatilitatea sa.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "15–18 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Inteligent, jucăuș, loial",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.kerryblues.info/"
+  },
+  {
+    "name": "komondor",
+    "description": "Un câine de păzire unguresc, cunoscut pentru blana sa în cordoane, asemănătoare cu un mop.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "36–61 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Protectiv, independent, calm",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.komondor.org/"
+  },
+  {
+    "name": "kuvasz",
+    "description": "Un câine de păzire maghiar, cunoscut pentru blana sa albă și natura sa loială și protectoare.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "32–52 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Loial, protectiv, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.kuvasz.com/"
+  },
+  {
+    "name": "labrador_retriever",
+    "description": "Unul dintre cele mai populare câini din lume, cunoscut pentru natura sa prietenoasă și versatilitate.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "25–36 kg",
+      "lifespan": "10–14 ani",
+      "temperament": "Prietenoasă, inteligent, energic",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.thelabradorclub.com/"
+  },
+  {
+    "name": "lakeland_terrier",
+    "description": "Un terrier mic și robust, originar din Regatul Unit, cunoscut pentru personalitatea sa curajoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "7–8 kg",
+      "lifespan": "12–16 ani",
+      "temperament": "Curajos, inteligent, independent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.lakelandterrierclub.org/"
+  },
+  {
+    "name": "leonberg",
+    "description": "Un câine masiv și blând, cunoscut pentru blana sa densă și natura sa prietenoasă.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "41–75 kg",
+      "lifespan": "8–9 ani",
+      "temperament": "Prietenoasă, calm, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.leonbergerclub.org/"
+  },
+  {
+    "name": "lhasa",
+    "description": "Un câine mic originar din Tibet, cunoscut pentru blana sa lungă și natura sa vigilentă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "5–8 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Independent, vigilent, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.lhasaapso.org/"
+  },
+  {
+    "name": "malamute",
+    "description": "Un câine puternic folosit pentru tragerea saniei, cunoscut pentru rezistența sa la frig.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "34–39 kg",
+      "lifespan": "10–14 ani",
+      "temperament": "Prietenoasă, loial, independent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.alaskanmalamute.org/"
+  },
+  {
+    "name": "malinois",
+    "description": "Un câine de lucru inteligent și energic, folosit pe scară largă în operațiuni militare și de poliție.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "25–34 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Inteligent, energic, protectiv",
+      "activity_level": "Foarte ridicată"
+    },
+    "image_url": "https://www.malinoisclub.org/"
+  },
+  {
+    "name": "maltese_dog",
+    "description": "Un câine mic cu blană lungă și albă, cunoscut pentru personalitatea sa afectuoasă și adaptabilă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "3–4 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Afectuos, jucăuș, adaptabil",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.malteseclub.org/"
+  },
+  {
+    "name": "mexican_hairless",
+    "description": "Un câine fără blană, originar din Mexic, cunoscut pentru pielea sa caldă și natura sa afectuoasă.",
+    "attributes": {
+      "size": "Mică-Medie",
+      "weight": "4–14 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Afectuos, alert, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.xoloitzcuintle.com/"
+  },
+  {
+    "name": "miniature_pinscher",
+    "description": "Un câine mic și energic, cunoscut pentru personalitatea sa curajoasă și aspectul său elegant.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "4–5 kg",
+      "lifespan": "12–16 ani",
+      "temperament": "Curajos, energic, alert",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.minpin.org/"
+  },
+  {
+    "name": "miniature_poodle",
+    "description": "O variantă mai mică a pudelului, cunoscută pentru inteligența sa și blana sa hipoalergenică.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "5–9 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Inteligent, activ, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.poodleclubofamerica.org/"
+  },
+  {
+    "name": "miniature_schnauzer",
+    "description": "Un terrier mic cu barbă distinctivă, cunoscut pentru personalitatea sa inteligentă și alertă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "5–9 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Inteligent, alert, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.miniatureschnauzer.org/"
+  },
+  {
+    "name": "newfoundland",
+    "description": "Un câine mare și blând, excelent înotător, cunoscut pentru natura sa salvatoare.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "45–68 kg",
+      "lifespan": "8–10 ani",
+      "temperament": "Blând, calm, loial",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.newfdogclub.org/"
+  },
+  {
+    "name": "norfolk_terrier",
+    "description": "Un terrier mic și curajos, cunoscut pentru personalitatea sa veselă și adaptabilă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "5–6 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Vesel, curajos, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.norfolkterrier.org/"
+  },
+  {
+    "name": "norwegian_elkhound",
+    "description": "Un câine de vânătoare nordic, cunoscut pentru rezistența sa și blana sa densă.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "20–24 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Curajos, independent, loial",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.elkhound.org/"
+  },
+  {
+    "name": "norwich_terrier",
+    "description": "Un terrier mic și robust, cunoscut pentru urechile sale ascuțite și natura sa curajoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "5–5.5 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Curajos, inteligent, afectuos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.norwichterrier.org/"
+  },
+  {
+    "name": "old_english_sheepdog",
+    "description": "Un câine mare cu blană lungă și zbârlită, cunoscut pentru personalitatea sa jucăușă și blândă.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "27–45 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Prietenoasă, jucăuș, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.oes.org/"
+  },
+  {
+    "name": "otterhound",
+    "description": "Un câine de vânătoare rar, cunoscut pentru blana sa rezistentă la apă și mirosul său excelent.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "36–54 kg",
+      "lifespan": "10–13 ani",
+      "temperament": "Prietenoasă, independent, jucăuș",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.otterhound.org/"
+  },
+  {
+    "name": "papillon",
+    "description": "Un câine mic cu urechi asemănătoare cu aripi de fluture, cunoscut pentru inteligența sa.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "3–5 kg",
+      "lifespan": "13–16 ani",
+      "temperament": "Inteligent, activ, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.papillonclub.org/"
+  },
+  {
+    "name": "pekinese",
+    "description": "Un câine mic și demn, originar din China, cunoscut pentru personalitatea sa independentă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "3–6 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Independent, demn, loial",
+      "activity_level": "Scăzută"
+    },
+    "image_url": "https://www.pekingese.org/"
+  },
+  {
+    "name": "pembroke",
+    "description": "Unul dintre cei doi Corgi, cunoscut pentru picioarele scurte și personalitatea sa energică.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "11–14 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Inteligent, activ, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.pembrokecorgi.org/"
+  },
+  {
+    "name": "pomeranian",
+    "description": "Un câine mic și pufos, cunoscut pentru personalitatea sa extrovertită și blana sa luxoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "1.5–3 kg",
+      "lifespan": "12–16 ani",
+      "temperament": "Extrovertit, inteligent, jucăuș",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.pomeranian.org/"
+  },
+  {
+    "name": "pug",
+    "description": "Un câine mic cu fața plină de expresie, cunoscut pentru personalitatea sa comică și afectuoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "6–8 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Afectuos, vesel, adaptabil",
+      "activity_level": "Scăzută"
+    },
+    "image_url": "https://www.pugdogclub.org/"
+  },
+  {
+    "name": "redbone",
+    "description": "Un câine de vânătoare american, cunoscut pentru blana sa roșie și abilitățile sale de urmărire.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "20–32 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Prietenoasă, inteligent, energic",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.ukcdogs.com/redbone-coonhound"
+  },
+  {
+    "name": "rhodesian_ridgeback",
+    "description": "Un câine puternic și musculos, originar din Africa, cunoscut pentru creasta sa distinctivă pe spate.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "32–39 kg",
+      "lifespan": "10–12 ani",
+      "temperament": "Demn, inteligent, independent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.rrcus.org/"
+  },
+  {
+    "name": "rottweiler",
+    "description": "Un câine puternic și protectiv, folosit pe scară largă în serviciile de pază și poliție.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "36–54 kg",
+      "lifespan": "8–10 ani",
+      "temperament": "Protectiv, loial, calm",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.rottweilerclub.org/"
+  },
+  {
+    "name": "saint_bernard",
+    "description": "Un câine masiv și blând, cunoscut pentru rolul său în salvarea călătorilor prin zăpadă.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "64–120 kg",
+      "lifespan": "8–10 ani",
+      "temperament": "Blând, prietenos, calm",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.saintbernardclub.org/"
+  },
+  {
+    "name": "saluki",
+    "description": "Unul dintre cei mai vechi câini de curse, cunoscut pentru grația și viteza sa.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "18–27 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Demn, independent, calm",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.salukiclub.org/"
+  },
+  {
+    "name": "samoyed",
+    "description": "Un câine alb și zâmbitor, cunoscut pentru blana sa densă și natura sa prietenoasă.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "20–30 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Prietenoasă, inteligent, sociabil",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.samoyedclub.org/"
+  },
+  {
+    "name": "schipperke",
+    "description": "Un câine mic și fără coadă, originar din Belgia, cunoscut pentru personalitatea sa curioasă și energică.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "4–7 kg",
+      "lifespan": "13–15 ani",
+      "temperament": "Curios, energic, independent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.schipperkeclub.org/"
+  },
+  {
+    "name": "scotch_terrier",
+    "description": "Un terrier scoțian cu barbă distinctivă, cunoscut pentru personalitatea sa independentă și curajoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "8–10 kg",
+      "lifespan": "11–13 ani",
+      "temperament": "Independent, curajos, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.scottishterrierclub.org/"
+  },
+  {
+    "name": "scottish_deerhound",
+    "description": "Un câine de vânătoare înalt și grațios, cunoscut pentru viteza și natura sa blândă.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "34–50 kg",
+      "lifespan": "8–10 ani",
+      "temperament": "Blând, demn, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.deerhound.org/"
+  },
+  {
+    "name": "sealyham_terrier",
+    "description": "Un terrier mic și robust, originar din Wales, cunoscut pentru personalitatea sa veselă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "8–9 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Vesel, curajos, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.sealyhamterrier.org/"
+  },
+  {
+    "name": "shetland_sheepdog",
+    "description": "Un câine de cioban mic, asemănător cu un Collie în miniatură, cunoscut pentru inteligența sa.",
+    "attributes": {
+      "size": "Mică-Medie",
+      "weight": "9–11 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Inteligent, afectuos, alert",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.shetland-sheepdog.org/"
+  },
+  {
+    "name": "shih-tzu",
+    "description": "Un câine mic și afectuos, originar din Tibet, cunoscut pentru blana sa lungă și personalitatea sa veselă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "4–7 kg",
+      "lifespan": "10–18 ani",
+      "temperament": "Afectuos, vesel, adaptabil",
+      "activity_level": "Scăzută"
+    },
+    "image_url": "https://www.shih-tzu.org/"
+  },
+  {
+    "name": "siberian_husky",
+    "description": "Un câine de sanie rezistent la frig, cunoscut pentru energia sa și ochii săi albaștri sau heterocromi.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "16–27 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Prietenoasă, independent, energic",
+      "activity_level": "Foarte ridicată"
+    },
+    "image_url": "https://www.huskyclub.org/"
+  },
+  {
+    "name": "silky_terrier",
+    "description": "Un terrier mic cu blană mătăsoasă, cunoscut pentru personalitatea sa curajoasă și inteligentă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "4–5 kg",
+      "lifespan": "13–15 ani",
+      "temperament": "Curajos, inteligent, alert",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.silkyterrier.org/"
+  },
+  {
+    "name": "soft-coated_wheaten_terrier",
+    "description": "Un terrier de talie medie cu blană moale și ondulată, cunoscut pentru natura sa afectuoasă.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "14–18 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Afectuos, jucăuș, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.wheaten.org/"
+  },
+  {
+    "name": "staffordshire_bullterrier",
+    "description": "Un câine musculos și compact, cunoscut pentru curajul și loialitatea față de familie.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "11–17 kg",
+      "lifespan": "12–14 ani",
+      "temperament": "Curajos, loial, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.staffordshirebullterrierclub.org/"
+  },
+  {
+    "name": "standard_poodle",
+    "description": "Un câine inteligent și elegant, cunoscut pentru blana sa hipoalergenică și versatilitate.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "20–32 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Inteligent, activ, mândru",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.poodleclubofamerica.org/"
+  },
+  {
+    "name": "standard_schnauzer",
+    "description": "Un câine de talie medie cu barbă distinctivă, cunoscut pentru inteligența și loialitatea sa.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "14–20 kg",
+      "lifespan": "13–16 ani",
+      "temperament": "Inteligent, loial, protectiv",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.schnauzer.org/"
+  },
+  {
+    "name": "sussex_spaniel",
+    "description": "Un spaniel de talie medie, cunoscut pentru blana sa ondulată și natura sa calmă.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "16–20 kg",
+      "lifespan": "11–13 ani",
+      "temperament": "Calm, prietenos, inteligent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.sussexspaniel.org/"
+  },
+  {
+    "name": "tibetan_mastiff",
+    "description": "Un câine masiv și protectiv, originar din Tibet, cunoscut pentru blana sa densă și natura sa independentă.",
+    "attributes": {
+      "size": "Foarte mare",
+      "weight": "45–73 kg",
+      "lifespan": "10–14 ani",
+      "temperament": "Protectiv, independent, demn",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.tibetanmastiff.org/"
+  },
+  {
+    "name": "tibetan_terrier",
+    "description": "Un câine de talie medie cu blană lungă, originar din Tibet, cunoscut pentru personalitatea sa afectuoasă.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "9–11 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Afectuos, inteligent, sensibil",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.tibetanterrier.org/"
+  },
+  {
+    "name": "toy_poodle",
+    "description": "Cea mai mică variantă a pudelului, cunoscută pentru inteligența și adaptabilitatea sa.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "3–4 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Inteligent, activ, prietenos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.poodleclubofamerica.org/"
+  },
+  {
+    "name": "toy_terrier",
+    "description": "Un câine mic și energic, cunoscut pentru personalitatea sa alertă și adaptabilă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "2–3 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Alert, energic, afectuos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.toyterrier.org/"
+  },
+  {
+    "name": "vizsla",
+    "description": "Un câine de vânătoare maghiar, cunoscut pentru blana sa roșie-aurie și natura sa afectuoasă.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "20–30 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Afectuos, energic, inteligent",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.vizsla.org/"
+  },
+  {
+    "name": "walker_hound",
+    "description": "Un câine de vânătoare american, cunoscut pentru abilitățile sale de urmărire și vocea sa distinctă.",
+    "attributes": {
+      "size": "Medie-Mare",
+      "weight": "23–32 kg",
+      "lifespan": "12–13 ani",
+      "temperament": "Prietenoasă, inteligent, vocal",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.ukcdogs.com/treeing-walker-coonhound"
+  },
+  {
+    "name": "weimaraner",
+    "description": "Un câine de vânătoare elegant, cunoscut pentru blana sa gri-argintie și ochii săi albaștri sau gri.",
+    "attributes": {
+      "size": "Mare",
+      "weight": "25–40 kg",
+      "lifespan": "10–13 ani",
+      "temperament": "Inteligent, energic, loial",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.weimaranerclub.org/"
+  },
+  {
+    "name": "welsh_springer_spaniel",
+    "description": "Un spaniel de talie medie, originar din Wales, cunoscut pentru blana sa roșie și albă.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "18–25 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Prietenoasă, inteligent, activ",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.welshspringerspaniel.org/"
+  },
+  {
+    "name": "west_highland_white_terrier",
+    "description": "Un terrier mic și alb, originar din Scoția, cunoscut pentru personalitatea sa curajoasă și veselă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "7–10 kg",
+      "lifespan": "12–16 ani",
+      "temperament": "Curajos, vesel, independent",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.westieclub.org/"
+  },
+  {
+    "name": "whippet",
+    "description": "Un câine de curse de talie medie, cunoscut pentru viteza sa și natura sa blândă.",
+    "attributes": {
+      "size": "Medie",
+      "weight": "9–19 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Blând, calm, afectuos",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.whippetclub.org/"
+  },
+  {
+    "name": "wire-haired_fox_terrier",
+    "description": "Un terrier mic cu blană aspră, cunoscut pentru personalitatea sa energică și curajoasă.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "7–8 kg",
+      "lifespan": "12–15 ani",
+      "temperament": "Curajos, inteligent, energic",
+      "activity_level": "Ridicată"
+    },
+    "image_url": "https://www.wirefoxterrier.org/"
+  },
+  {
+    "name": "yorkshire_terrier",
+    "description": "Un câine mic cu blană lungă și mătăsoasă, cunoscut pentru personalitatea sa curajoasă și încrezută.",
+    "attributes": {
+      "size": "Mică",
+      "weight": "3 kg",
+      "lifespan": "13–16 ani",
+      "temperament": "Curajos, inteligent, afectuos",
+      "activity_level": "Moderată"
+    },
+    "image_url": "https://www.yorkshireterrier.org/"
+  }
+]
