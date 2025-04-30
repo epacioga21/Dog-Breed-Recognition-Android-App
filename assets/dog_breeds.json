@@ -1,6 +1,6 @@
 [
   {
-    "name": "affenpinscher",
+    "name": "Affenpinscher",
     "description": "Un câine de talie mică, cunoscut pentru personalitatea sa curajoasă și aspectul său distinctiv, asemănător unei maimuțe.",
     "attributes": {
       "size": "Mică",
@@ -12,7 +12,7 @@
     "image_url": "https://cdn.royalcanin-weshare-online.io/NyLkHWsBaxEApS7LaR3j/v5/bd121h-hub-affenpinscher-adult-black-and-white"
   },
   {
-    "name": "afghan_hound",
+    "name": "Afghan Hound",
     "description": "Cunoscut pentru blana sa lungă și mătăsoasă, Afghan Hound este un câine elegant și independent, originar din Afganistan.",
     "attributes": {
       "size": "Mare",
@@ -24,7 +24,7 @@
     "image_url": "https://www.zooplus.co.uk/magazine/wp-content/uploads/2019/01/Afghan-hound-UK.jpg"
   },
   {
-    "name": "african_hunting_dog",
+    "name": "African Hunting Dog",
     "description": "Cunoscut și sub numele de câinele sălbatic african, este un prădător eficient, recunoscut pentru urechile sale mari și blana pestriță.",
     "attributes": {
       "size": "Mare",
@@ -36,7 +36,7 @@
     "image_url": "https://www.africanwildlifeconservationfund.org/storage/2020/11/Wild_Dog_Side_Profile.png"
   },
   {
-    "name": "airedale",
+    "name": "Airedale",
     "description": "Cel mai mare dintre terrieri, Airedale este un câine inteligent și versatil, folosit atât pentru vânătoare cât și pentru companie.",
     "attributes": {
       "size": "Mare",
@@ -48,7 +48,7 @@
     "image_url": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2024-03/Airedale-Terrier.jpg?itok=PIRE7I7h"
   },
   {
-    "name": "american_staffordshire_terrier",
+    "name": "American Staffordshire Terrier",
     "description": "Un câine puternic și musculos, cunoscut pentru loialitatea și curajul său, adesea confundat cu pitbull.",
     "attributes": {
       "size": "Medie",
@@ -57,10 +57,10 @@
       "temperament": "Curajos, loial, inteligent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.ukcdogs.com/american-staffordshire-terrier"
+    "image_url": "https://media.istockphoto.com/id/981628344/ro/fotografie/american-staffordshire-terrier-catelus-4-luni-st%C3%A2nd-pe-fundal-alb.jpg?s=612x612&w=0&k=20&c=K-82CCGw3BVpLdJgAaKfxYiPzHggzBLb0T8uBtxPRgI="
   },
   {
-    "name": "appenzeller",
+    "name": "Appenzeller",
     "description": "Un câine de cioban din Elveția, energic și inteligent, excelent pentru activități în aer liber.",
     "attributes": {
       "size": "Medie",
@@ -69,10 +69,10 @@
       "temperament": "Energic, loial, vigilent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.sbs.com.au/yourlanguage/swiss-appenzeller-dog"
+    "image_url": "https://st.depositphotos.com/3079219/4560/i/450/depositphotos_45604913-stock-photo-entlebucher-mountain-dog.jpg"
   },
   {
-    "name": "australian_terrier",
+    "name": "Australian Terrier",
     "description": "Un terrier mic și robust, originar din Australia, cunoscut pentru blana sa aspră și personalitatea sa curajoasă.",
     "attributes": {
       "size": "Mică",
@@ -81,10 +81,10 @@
       "temperament": "Curajos, alert, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.dogzone.com/breeds/australian-terrier/"
+    "image_url": "https://st2.depositphotos.com/1219538/46986/i/450/depositphotos_469866720-stock-photo-australian-terrier-dog-isolated-white.jpg"
   },
   {
-    "name": "basenji",
+    "name": "Basenji",
     "description": "Cunoscut drept 'câinele care nu latră', Basenji este un câine independent și curat, originar din Africa.",
     "attributes": {
       "size": "Mică",
@@ -93,10 +93,10 @@
       "temperament": "Independent, curios, tăcut",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://basenji.org/"
+    "image_url": "https://st2.depositphotos.com/1004199/8924/i/450/depositphotos_89244642-stock-photo-basenji-funny-dog.jpg"
   },
   {
-    "name": "basset",
+    "name": "Basset",
     "description": "Un câine scund cu urechi lungi și un miros excelent, folosit inițial pentru vânătoare.",
     "attributes": {
       "size": "Medie",
@@ -105,10 +105,10 @@
       "temperament": "Blând, relaxat, prietenos",
       "activity_level": "Scăzută"
     },
-    "image_url": "https://www.akc.org/dog-breeds/basset-hound/"
+    "image_url": "https://static9.depositphotos.com/1594920/1087/i/450/depositphotos_10875360-stock-photo-basset-hound-3-months-in.jpg"
   },
   {
-    "name": "beagle",
+    "name": "Beagle",
     "description": "Un câine de talie mică până la medie, cunoscut pentru personalitatea sa prietenoasă și mirosul său excelent.",
     "attributes": {
       "size": "Mică-Medie",
@@ -117,10 +117,10 @@
       "temperament": "Prietenoasă, curios, vesel",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.beaglepro.com/"
+    "image_url": "https://media.istockphoto.com/id/872487308/ro/fotografie/c%C3%A2ine-beagle-izolat-pe-fond-alb.jpg?s=612x612&w=0&k=20&c=EzDjkoW-fvgCK7uaA6mM_fMHSGAGo8dyY1QCHA_Fj68="
   },
   {
-    "name": "bedlington_terrier",
+    "name": "Bedlington Terrier",
     "description": "Un terrier cu aspect de miel, cunoscut pentru blana sa ondulată și natura sa curajoasă.",
     "attributes": {
       "size": "Mică",
@@ -129,10 +129,10 @@
       "temperament": "Curajos, inteligent, afectuos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.bedlingtonterrier.co.uk/"
+    "image_url": "https://www.dogstrust.ie/images/800x600/assets/2024-07/bedlington%20terrier%20png.png"
   },
   {
-    "name": "bernese_mountain_dog",
+    "name": "Bernese Mountain Dog",
     "description": "Un câine mare și puternic, originar din Elveția, cunoscut pentru blana sa tricoloră și natura sa blândă.",
     "attributes": {
       "size": "Mare",
@@ -141,10 +141,10 @@
       "temperament": "Blând, loial, calm",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.bernese-mountain-dog.com/"
+    "image_url": "https://static6.depositphotos.com/1004199/565/i/450/depositphotos_5656040-stock-photo-bernese-mountain-dog-on-white.jpg"
   },
   {
-    "name": "black-and-tan_coonhound",
+    "name": "Black-And-Tan Coonhound",
     "description": "Un câine de vânătoare excelent, cunoscut pentru abilitățile sale de urmărire și blana sa distinctivă.",
     "attributes": {
       "size": "Mare",
@@ -153,10 +153,10 @@
       "temperament": "Prietenos, relaxat, inteligent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.ukcdogs.com/black-and-tan-coonhound"
+    "image_url": "https://st.depositphotos.com/1806346/4485/i/450/depositphotos_44858703-stock-photo-black-and-tan-coonhound.jpg"
   },
   {
-    "name": "blenheim_spaniel",
+    "name": "Blenheim Spaniel",
     "description": "Un tip de Cavalier King Charles Spaniel, cunoscut pentru blana sa lungă și personalitatea sa afectuoasă.",
     "attributes": {
       "size": "Mică",
@@ -165,10 +165,10 @@
       "temperament": "Afectuos, blând, sociabil",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.thekennelclub.org.uk/breed/cavalier-king-charles-spaniel/"
+    "image_url": "https://st3.depositphotos.com/1325564/31932/i/450/depositphotos_319323502-stock-photo-cavalier-king-charles-spaniel.jpg"
   },
   {
-    "name": "bloodhound",
+    "name": "Bloodhound",
     "description": "Un câine mare cu un miros excepțional, folosit adesea în operațiuni de căutare și salvare.",
     "attributes": {
       "size": "Mare",
@@ -177,10 +177,10 @@
       "temperament": "Blând, persistent, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.bloodhounds.org/"
+    "image_url": "https://static9.depositphotos.com/1606449/1096/i/450/depositphotos_10969237-stock-photo-bloodhound-dog-isolated-on-white.jpg"
   },
   {
-    "name": "bluetick",
+    "name": "Bluetick",
     "description": "Un câine de vânătoare energetic, cunoscut pentru modelul său de blană pestriț și abilitățile sale de urmărire.",
     "attributes": {
       "size": "Medie",
@@ -189,10 +189,10 @@
       "temperament": "Energic, loial, inteligent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.ukcdogs.com/bluetick-coonhound"
+    "image_url": "https://breed-assets.wisdompanel.com/dog/blue-tick-coonhound/Bluetick_Coonhound_Color_Small_File.png"
   },
   {
-    "name": "border_collie",
+    "name": "Border Collie",
     "description": "Considerat cel mai inteligent câine, Border Collie este excelent pentru activități care necesită agilitate și concentrare.",
     "attributes": {
       "size": "Medie",
@@ -201,10 +201,10 @@
       "temperament": "Inteligent, energic, responsiv",
       "activity_level": "Foarte ridicată"
     },
-    "image_url": "https://www.bordercollie.org/"
+    "image_url": "https://st.depositphotos.com/1594920/2143/i/450/depositphotos_21432469-stock-photo-border-collie-1-5-years.jpg"
   },
   {
-    "name": "border_terrier",
+    "name": "Border Terrier",
     "description": "Un terrier mic și robust, cunoscut pentru personalitatea sa curajoasă și adaptabilitatea sa.",
     "attributes": {
       "size": "Mică",
@@ -213,10 +213,10 @@
       "temperament": "Curajos, inteligent, afectuos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.thekennelclub.org.uk/breed/border-terrier/"
+    "image_url": "https://media.istockphoto.com/id/669796652/ro/fotografie/atent-border-terrier-dog-pe-alb.jpg?s=612x612&w=0&k=20&c=f58t476_nKcDuwR52P1c94EHQVmCAsMGiIr_mx2TBcg="
   },
   {
-    "name": "borzoi",
+    "name": "Borzoi",
     "description": "Un câine de vânătoare rus, elegant și rapid, cunoscut pentru blana sa lungă și grația sa.",
     "attributes": {
       "size": "Mare",
@@ -225,10 +225,10 @@
       "temperament": "Calm, demn, independent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.borzoiclubofamerica.org/"
+    "image_url": "https://static9.depositphotos.com/1594920/1087/i/450/depositphotos_10875646-stock-photo-borzoi-russian-wolfhound-15-months.jpg"
   },
   {
-    "name": "boston_bull",
+    "name": "Boston Bull",
     "description": "Un câine mic și compact, cunoscut pentru personalitatea sa prietenoasă și aspectul său similar cu un frac.",
     "attributes": {
       "size": "Mică",
@@ -237,10 +237,10 @@
       "temperament": "Prietenoasă, inteligent, vesel",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.akc.org/dog-breeds/boston-terrier/"
+    "image_url": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-07/Boston-Terrier.jpg?itok=HQvjoiyE"
   },
   {
-    "name": "bouvier_des_flandres",
+    "name": "Bouvier Des Flandres",
     "description": "Un câine de lucru puternic și versatil, originar din Belgia, folosit atât pentru păzire cât și pentru conducerea oilor.",
     "attributes": {
       "size": "Mare",
@@ -249,10 +249,10 @@
       "temperament": "Protectiv, inteligent, calm",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.bouvier.org/"
+    "image_url": "https://www.europetnet.org/images/dogbreeds/bouvierdesflanders.jpg"
   },
   {
-    "name": "boxer",
+    "name": "Boxer",
     "description": "Un câine musculos și energic, cunoscut pentru loialitatea și natura sa jucăușă.",
     "attributes": {
       "size": "Medie-Mare",
@@ -261,10 +261,10 @@
       "temperament": "Jucăuș, energic, loial",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.boxerclubofamerica.org/"
+    "image_url": "https://www.purina.ro/sites/default/files/2021-02/BREED%20Hero_0023_boxer.jpg"
   },
   {
-    "name": "brabancon_griffon",
+    "name": "Brabancon Griffon",
     "description": "Un câine mic cu o față expresivă și personalitate mare, originar din Belgia.",
     "attributes": {
       "size": "Mică",
@@ -273,10 +273,10 @@
       "temperament": "Alert, inteligent, afectuos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.akc.org/dog-breeds/griffon-bruxellois/"
+    "image_url": "https://basepaws.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fqj2yxv39d6ig%2FXfndWc8yXQEDqKppfeWiE%2F8cbcd364286f4c53f8649ba2a2f4d516%2FPetit_Brabanc_on_Griffon_1000.jpg&w=1080&q=75"
   },
   {
-    "name": "briard",
+    "name": "Briard",
     "description": "Un câine de cioban francez cu blană lungă, cunoscut pentru loialitatea și inteligența sa.",
     "attributes": {
       "size": "Mare",
@@ -285,10 +285,10 @@
       "temperament": "Loial, inteligent, protectiv",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.briardclubofamerica.org/"
+    "image_url": "https://www.purina.ro/sites/default/files/2021-02/BREED%20Hero_0025_briard.jpg"
   },
   {
-    "name": "brittany_spaniel",
+    "name": "Brittany Spaniel",
     "description": "Un câine de vânătoare energic și inteligent, originar din Franța.",
     "attributes": {
       "size": "Medie",
@@ -297,10 +297,10 @@
       "temperament": "Energic, inteligent, prietenos",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.akc.org/dog-breeds/brittany/"
+    "image_url": "https://moderndogmagazine.com/wp-content/uploads/2016/11/Brittany3_stacked.jpg"
   },
   {
-    "name": "bull_mastiff",
+    "name": "Bull Mastiff",
     "description": "Un câine mare și puternic, creat pentru a proteja proprietăți, cunoscut pentru natura sa calmă și protectivă.",
     "attributes": {
       "size": "Mare",
@@ -309,10 +309,10 @@
       "temperament": "Protectiv, loial, calm",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.bullmastiff.us/"
+    "image_url": "https://www.purina.ro/sites/default/files/2021-02/BREED%20Hero_0030_Bullmastiff.jpg"
   },
   {
-    "name": "cairn",
+    "name": "Cairn",
     "description": "Un terrier mic și robust, faimos pentru rolul său în filmul 'Vrăjitorul din Oz'.",
     "attributes": {
       "size": "Mică",
@@ -321,10 +321,10 @@
       "temperament": "Vesel, curajos, independent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.cairnterrier.org/"
+    "image_url": "https://www.purina.ro/sites/default/files/2021-02/BREED%20Hero_0031_Cairn_terrier.jpg"
   },
   {
-    "name": "cardigan",
+    "name": "Cardigan",
     "description": "Unul dintre cele două rase de Corgi, cu o coadă lungă și un corp mai mare decât Pembroke.",
     "attributes": {
       "size": "Mică",
@@ -333,10 +333,10 @@
       "temperament": "Inteligent, afectuos, alert",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.cardigancorgis.com/"
+    "image_url": "https://st2.depositphotos.com/1009420/44342/i/450/depositphotos_443423382-stock-photo-brindle-white-cardigan-welsh-corgi.jpg"
   },
   {
-    "name": "chesapeake_bay_retriever",
+    "name": "Chesapeake Bay Retriever",
     "description": "Un câine de vânătoare excelent în apă, cunoscut pentru blana sa rezistentă la apă și loialitatea față de stăpân.",
     "attributes": {
       "size": "Mare",
@@ -345,10 +345,10 @@
       "temperament": "Inteligent, protector, loial",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.chessie.org/"
+    "image_url": "https://t4.ftcdn.net/jpg/12/25/30/91/360_F_1225309124_y3yoonzAPQOhY88myDuD64yGCbZkWVmO.jpg"
   },
   {
-    "name": "chihuahua",
+    "name": "Chihuahua",
     "description": "Cea mai mică rasă de câini din lume, cunoscută pentru personalitatea sa mare și loialitatea față de stăpân.",
     "attributes": {
       "size": "Foarte mică",
@@ -357,10 +357,10 @@
       "temperament": "Curajos, alert, loial",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.chihuahuaclub.com/"
+    "image_url": "https://media.istockphoto.com/id/1184376967/ro/fotografie/chihuahua-st%C3%A2nd-pe-fundal-alb.jpg?s=612x612&w=0&k=20&c=OtBx9OKrHhsjWpz0Bxroo39-8OMoNH7sBf72E6zk00I="
   },
   {
-    "name": "chow",
+    "name": "Chow",
     "description": "Un câine cu aspect de leu, cunoscut pentru limba sa albastră și natura sa independentă.",
     "attributes": {
       "size": "Medie-Mare",
@@ -369,10 +369,10 @@
       "temperament": "Demn, independent, loial",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.chowclub.org/"
+    "image_url": "https://media.istockphoto.com/id/508423112/ro/fotografie/chow-chow-%C3%AEn-fa%C8%9Ba-unui-fundal-alb.jpg?s=612x612&w=0&k=20&c=dlmGwv4gilY8qIvfDCk3k1anWMYcFFYW4cL4ELImrKE="
   },
   {
-    "name": "clumber",
+    "name": "Clumber",
     "description": "Cel mai masiv dintre spanieli, cunoscut pentru natura sa calmă și blana sa densă.",
     "attributes": {
       "size": "Medie-Mare",
@@ -381,10 +381,10 @@
       "temperament": "Blând, loial, calm",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.akc.org/dog-breeds/clumber-spaniel/"
+    "image_url": "https://www.akc.org/wp-content/uploads/2017/11/Clumber-Spaniel-On-White-011.jpg"
   },
   {
-    "name": "cocker_spaniel",
+    "name": "Cocker Spaniel",
     "description": "Un câine de talie mică până la medie, cunoscut pentru urechile sale lungi și personalitatea sa afectuoasă.",
     "attributes": {
       "size": "Mică-Medie",
@@ -393,10 +393,10 @@
       "temperament": "Afectuos, vesel, jucăuș",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.asc-cockerspaniel.org/"
+    "image_url": "https://bowwowinsurance.com.au/wp-content/uploads/2018/10/cocker-spaniel-700x700.jpg"
   },
   {
-    "name": "collie",
+    "name": "Collie",
     "description": "Un câine inteligent și elegant, faimos datorită serialului 'Lassie'.",
     "attributes": {
       "size": "Medie-Mare",
@@ -405,10 +405,10 @@
       "temperament": "Inteligent, blând, protectiv",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.collieclubofamerica.org/"
+    "image_url": "https://www.purina.ro/sites/default/files/2021-02/BREED%20Hero_0036_collie_rough.jpg"
   },
   {
-    "name": "curly-coated_retriever",
+    "name": "Curly-Coated Retriever",
     "description": "Un câine de vânătoare cu blană ondulată distinctivă, cunoscut pentru inteligența și independența sa.",
     "attributes": {
       "size": "Mare",
@@ -417,10 +417,10 @@
       "temperament": "Inteligent, independent, loial",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.ccrca.org/"
+    "image_url": "https://cdn.royalcanin-weshare-online.io/TyIGHmsBaxEApS7LiB3m/v1/bd173h-hub-curly-coated-retriever-adult-black-and-white"
   },
   {
-    "name": "dandie_dinmont",
+    "name": "Dandie Dinmont",
     "description": "Un terrier mic cu un corp lung și picioare scurte, cunoscut pentru personalitatea sa curajoasă.",
     "attributes": {
       "size": "Mică",
@@ -429,10 +429,10 @@
       "temperament": "Independent, curajos, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.dandie.com/"
+    "image_url": "https://www.purina.co.uk/sites/default/files/2022-07/Dandie-Dinmont-Terrier.jpg?itok=z7_jpRWl"
   },
   {
-    "name": "dhole",
+    "name": "Dhole",
     "description": "Cunoscut și sub numele de câinele sălbatic asiatic, este un prădător social care trăiește în haită.",
     "attributes": {
       "size": "Medie",
@@ -441,10 +441,10 @@
       "temperament": "Social, inteligent, energic",
       "activity_level": "Foarte ridicată"
     },
-    "image_url": "https://wildlifeconservationnetwork.org/wildlife/dhole/"
+    "image_url": "https://e7.pngegg.com/pngimages/903/947/png-clipart-african-wild-dog-dhole-dog-breed-zoo-tycoon-2-marine-mania-dog-animals-carnivoran.png"
   },
   {
-    "name": "dingo",
+    "name": "Dingo",
     "description": "Un câine sălbatic originar din Australia, cunoscut pentru adaptabilitatea sa la medii dure.",
     "attributes": {
       "size": "Medie",
@@ -453,10 +453,10 @@
       "temperament": "Independent, inteligent, rezistent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.australiangeographic.com.au/topics/wildlife/2019/07/the-australian-dingo/"
+    "image_url": "https://thumbs.dreamstime.com/b/australien-dingo-c%C3%A2ine-s%C4%83lbatic-fraser-island-australia-austro-ul-izolat-pe-alb-este-un-animal-cu-pericol-critic-27140518.jpg"
   },
   {
-    "name": "doberman",
+    "name": "Doberman",
     "description": "Un câine de pază inteligent și musculos, cunoscut pentru loialitatea și viteza sa.",
     "attributes": {
       "size": "Mare",
@@ -465,10 +465,10 @@
       "temperament": "Loial, inteligent, protectiv",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.dpca.org/"
+    "image_url": "https://media.istockphoto.com/id/517521065/ro/fotografie/doberman-pe-fundal-alb.jpg?s=170667a&w=0&k=20&c=WQhtpX-NqDf_S20qDfU5Asy1gouWmBQROHtOOGbHv28="
   },
   {
-    "name": "english_foxhound",
+    "name": "English Foxhound",
     "description": "Un câine de vânătoare tradițional din Anglia, cunoscut pentru rezistența și mirosul său excelent.",
     "attributes": {
       "size": "Mare",
@@ -477,10 +477,10 @@
       "temperament": "Prietenoasă, activ, social",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.akc.org/dog-breeds/english-foxhound/"
+    "image_url": "https://canna-pet.com/wp-content/uploads/2016/01/english-foxhound.jpg"
   },
   {
-    "name": "english_setter",
+    "name": "English Setter",
     "description": "Un câine de vânătoare elegant, cunoscut pentru blana sa pătată și natura sa blândă.",
     "attributes": {
       "size": "Medie-Mare",
@@ -489,10 +489,10 @@
       "temperament": "Blând, inteligent, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.englishsetterassociation.org/"
+    "image_url": "https://static7.depositphotos.com/1009420/735/i/450/depositphotos_7355516-stock-photo-english-setter.jpg"
   },
   {
-    "name": "english_springer",
+    "name": "English Springer",
     "description": "Un spaniel de talie medie, excelent pentru vânătoare și companie, cunoscut pentru energia sa.",
     "attributes": {
       "size": "Medie",
@@ -501,10 +501,10 @@
       "temperament": "Prietenoasă, energic, inteligent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.essfta.org/"
+    "image_url": "https://st.depositphotos.com/1594920/2141/i/450/depositphotos_21418211-stock-photo-english-springer-spaniel-walking-with.jpg"
   },
   {
-    "name": "entlebucher",
+    "name": "Entlebucher",
     "description": "Cel mai mic dintre cei patru câini de munte elvețieni, cunoscut pentru energia și inteligența sa.",
     "attributes": {
       "size": "Medie",
@@ -513,10 +513,10 @@
       "temperament": "Energic, inteligent, loial",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.entlebucher.org/"
+    "image_url": "https://st.depositphotos.com/3079219/4560/i/450/depositphotos_45604913-stock-photo-entlebucher-mountain-dog.jpg"
   },
   {
-    "name": "eskimo_dog",
+    "name": "Eskimo Dog",
     "description": "Un câine robust și rezistent la frig, folosit inițial pentru tragerea saniei.",
     "attributes": {
       "size": "Medie-Mare",
@@ -525,10 +525,10 @@
       "temperament": "Prietenoasă, inteligent, independent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.ukpets.com/dog-breeds/american-eskimo-dog"
+    "image_url": "https://st2.depositphotos.com/39033784/45934/i/450/depositphotos_459343518-stock-photo-japenese-spitz-isolated-white.jpg"
   },
   {
-    "name": "flat-coated_retriever",
+    "name": "Flat Coated Retriever",
     "description": "Un câine de vânătoare vesel și energic, cunoscut pentru blana sa netedă și negră.",
     "attributes": {
       "size": "Mare",
@@ -537,10 +537,10 @@
       "temperament": "Vesel, energic, prietenos",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.fcrc.info/"
+    "image_url": "https://cdn.royalcanin-weshare-online.io/VyIYHmsBaxEApS7LAR0v/v1/bd193h-hub-flat-coated-retriever-adult-black-and-white"
   },
   {
-    "name": "french_bulldog",
+    "name": "French Bulldog",
     "description": "Un câine mic și compact, cunoscut pentru urechile sale de liliac și personalitatea sa relaxată.",
     "attributes": {
       "size": "Mică",
@@ -549,10 +549,10 @@
       "temperament": "Prietenoasă, jucăuș, adaptabil",
       "activity_level": "Scăzută"
     },
-    "image_url": "https://www.frenchbulldogclub.org/"
+    "image_url": "https://media.istockphoto.com/id/1324893210/ro/fotografie/catelus-buldog-francez-pe-fundal-alb.jpg?s=612x612&w=0&k=20&c=NNR8CYlHeVQaSwp3O-D3EXgW-DBZ6PJ0aENj5n1JIIA="
   },
   {
-    "name": "german_shepherd",
+    "name": "German Shepherd",
     "description": "Un câine inteligent și versatil, folosit pe scară largă în serviciile de poliție și armată.",
     "attributes": {
       "size": "Mare",
@@ -561,10 +561,10 @@
       "temperament": "Inteligent, loial, protectiv",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.germanshepherddog.com/"
+    "image_url": "https://static5.depositphotos.com/1004199/495/i/450/depositphotos_4952525-stock-photo-german-shepherd-dog-sitting-on.jpg"
   },
   {
-    "name": "german_short-haired_pointer",
+    "name": "German Short Haired Pointer",
     "description": "Un câine de vânătoare versatil, cunoscut pentru inteligența și energia sa.",
     "attributes": {
       "size": "Medie-Mare",
@@ -573,10 +573,10 @@
       "temperament": "Inteligent, energic, prietenos",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.gspca.org/"
+    "image_url": "https://media.istockphoto.com/id/823826344/ro/fotografie/german-shorthaired-pointer-4-ani-st%C3%A2nd-pe-fundal-alb.jpg?s=170667a&w=0&k=20&c=6fx3ex64zjFAjn7D0P1dLEhTK209TiNuDXSDFLfSTDs="
   },
   {
-    "name": "giant_schnauzer",
+    "name": "Giant Schnauzer",
     "description": "Un câine mare și puternic, cunoscut pentru barba sa distinctivă și natura sa protectoare.",
     "attributes": {
       "size": "Mare",
@@ -585,10 +585,10 @@
       "temperament": "Protectiv, inteligent, loial",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.giantschnauzerclubofamerica.org/"
+    "image_url": "https://static9.depositphotos.com/1606449/1096/i/450/depositphotos_10969500-stock-photo-giant-schnauzer.jpg"
   },
   {
-    "name": "golden_retriever",
+    "name": "Golden Retriever",
     "description": "Unul dintre cele mai populare câini de companie, cunoscut pentru natura sa blândă și inteligentă.",
     "attributes": {
       "size": "Mare",
@@ -597,10 +597,10 @@
       "temperament": "Prietenoasă, inteligent, devotat",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.grca.org/"
+    "image_url": "https://media.istockphoto.com/id/509052128/ro/fotografie/golden-retriever-st%C3%A2nd-%C3%AEn-fa%C8%9Ba-unui-fundal-alb.jpg?s=612x612&w=0&k=20&c=E3tosYgYeXHXYbDbWrSvPX3U2IPv-MvaR_wj1cC2Vgk="
   },
   {
-    "name": "gordon_setter",
+    "name": "Gordon Setter",
     "description": "Un câine de vânătoare scoțian, cunoscut pentru blana sa negră și maro și natura sa demnă.",
     "attributes": {
       "size": "Mare",
@@ -609,10 +609,10 @@
       "temperament": "Demn, inteligent, loial",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.gordonsetter.com/"
+    "image_url": "https://static9.depositphotos.com/1594920/1088/i/450/depositphotos_10885894-stock-photo-gordon-setter-7-years-old.jpg"
   },
   {
-    "name": "great_dane",
+    "name": "Great Dane",
     "description": "Unul dintre cei mai mari câini din lume, cunoscut pentru natura sa blândă și statura sa impunătoare.",
     "attributes": {
       "size": "Foarte mare",
@@ -621,10 +621,10 @@
       "temperament": "Blând, prietenos, demn",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.gdca.org/"
+    "image_url": "https://media.istockphoto.com/id/119869177/ro/fotografie/great-dane-15-luni-mersul-pe-jos-fundal-alb.jpg?s=612x612&w=0&k=20&c=wk7PAQ13yHAGUiFqyGFLMQIdO2wBFHS4wdlyf3gDbhs="
   },
   {
-    "name": "great_pyrenees",
+    "name": "Great Pyrenees",
     "description": "Un câine de păzire masiv, originar din Munții Pirinei, cunoscut pentru blana sa albă și natura sa protectoare.",
     "attributes": {
       "size": "Foarte mare",
@@ -633,10 +633,10 @@
       "temperament": "Calm, protectiv, independent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.pyr.org/"
+    "image_url": "https://static9.depositphotos.com/1594920/1088/i/450/depositphotos_10885803-stock-photo-pyrenean-mountain-dog-or-great.jpg"
   },
   {
-    "name": "greater_swiss_mountain_dog",
+    "name": "Greater Swiss Mountain Dog",
     "description": "Un câine de lucru robust și puternic, originar din Elveția, cunoscut pentru blana sa tricoloră.",
     "attributes": {
       "size": "Foarte mare",
@@ -645,10 +645,10 @@
       "temperament": "Prietenoasă, loial, calm",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.swissys.com/"
+    "image_url": "https://thumbs.dreamstime.com/b/greater-swiss-mountain-dog-white-background-greater-swiss-mountain-dog-standing-white-background-looks-friendly-to-358274146.jpg"
   },
   {
-    "name": "groenendael",
+    "name": "Groenendael",
     "description": "Un tip de câine ciobănesc belgian, cunoscut pentru blana sa lungă și neagră și inteligența sa.",
     "attributes": {
       "size": "Mare",
@@ -657,10 +657,10 @@
       "temperament": "Inteligent, alert, protectiv",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.belgianshepherddog.com/"
+    "image_url": "https://static9.depositphotos.com/1594920/1090/i/450/depositphotos_10901570-stock-photo-belgian-shepherd-dog-groenendael-6.jpg"
   },
   {
-    "name": "ibizan_hound",
+    "name": "Ibizan Hound",
     "description": "Un câine de vânătoare elegant, originar din Spania, cunoscut pentru urechile sale mari și corpul său zvelt.",
     "attributes": {
       "size": "Medie-Mare",
@@ -669,10 +669,10 @@
       "temperament": "Independent, inteligent, jucăuș",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.ibizanhound.com/"
+    "image_url": "https://t3.ftcdn.net/jpg/11/60/08/78/360_F_1160087841_I0MCJ3wQR4IgvuymeTNSAUv8YNDe6L2E.jpg"
   },
   {
-    "name": "irish_setter",
+    "name": "Irish Setter",
     "description": "Un câine de vânătoare cu blana roșcată strălucitoare, cunoscut pentru personalitatea sa energică și prietenoasă.",
     "attributes": {
       "size": "Mare",
@@ -681,10 +681,10 @@
       "temperament": "Prietenoasă, energic, inteligent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.irishsetterclub.org/"
+    "image_url": "https://static9.depositphotos.com/1594920/1090/i/450/depositphotos_10902577-stock-photo-irish-setter-1-year-old.jpg"
   },
   {
-    "name": "irish_terrier",
+    "name": "Irish Terrier",
     "description": "Un terrier roșu curajos și energic, originar din Irlanda, cunoscut pentru loialitatea sa.",
     "attributes": {
       "size": "Medie",
@@ -693,10 +693,10 @@
       "temperament": "Curajos, inteligent, loial",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.irishterrierclub.com/"
+    "image_url": "https://static9.depositphotos.com/1594920/1088/i/450/depositphotos_10885673-stock-photo-irish-terrier-2-years-old.jpg"
   },
   {
-    "name": "irish_water_spaniel",
+    "name": "Irish Water Spaniel",
     "description": "Cel mai mare dintre spanieli, cunoscut pentru blana sa ondulată și rezistenta la apă.",
     "attributes": {
       "size": "Mare",
@@ -705,10 +705,10 @@
       "temperament": "Inteligent, jucăuș, independent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.iwsc.org/"
+    "image_url": "https://www.purina.in/sites/default/files/breed_library/irish_water_spaniel.jpg"
   },
   {
-    "name": "irish_wolfhound",
+    "name": "Irish Wolfhound",
     "description": "Una dintre cele mai înalte rase de câini, cunoscută pentru statura sa impunătoare și natura sa blândă.",
     "attributes": {
       "size": "Foarte mare",
@@ -717,10 +717,10 @@
       "temperament": "Blând, răbdător, demn",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.iwclubofamerica.org/"
+    "image_url": "https://media.istockphoto.com/id/1272795622/ro/fotografie/destul-de-wolfhound-irlandez-st%C3%A2nd-pe-un-fundal-alb.jpg?s=612x612&w=0&k=20&c=7C9ZsvtML1D2N5maAyFUk-hwy3swtCZF5Sewr2neRMY="
   },
   {
-    "name": "italian_greyhound",
+    "name": "Italian Greyhound",
     "description": "Un câine mic și grațios, cunoscut pentru viteza sa și natura sa afectuoasă.",
     "attributes": {
       "size": "Mică",
@@ -729,10 +729,10 @@
       "temperament": "Afectuos, sensibil, jucăuș",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.italiangreyhound.org/"
+    "image_url": "https://st2.depositphotos.com/1004592/8392/i/450/depositphotos_83922688-stock-photo-puppy-italian-greyhound.jpg"
   },
   {
-    "name": "japanese_spaniel",
+    "name": "Japanese Spaniel",
     "description": "Un câine mic și elegant, cunoscut pentru blana sa lungă și expresia sa dulce.",
     "attributes": {
       "size": "Mică",
@@ -741,10 +741,10 @@
       "temperament": "Afectuos, inteligent, demn",
       "activity_level": "Scăzută"
     },
-    "image_url": "https://www.akc.org/dog-breeds/japanese-chin/"
+    "image_url": "https://st4.depositphotos.com/1594920/22123/i/450/depositphotos_221232202-stock-photo-japanese-chin-years-old-sitting.jpg"
   },
   {
-    "name": "keeshond",
+    "name": "Keeshond",
     "description": "Un câine de talie medie cu blană densă, cunoscut pentru expresia sa 'îmbrăcată' și natura sa prietenoasă.",
     "attributes": {
       "size": "Medie",
@@ -753,10 +753,10 @@
       "temperament": "Prietenoasă, alert, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.keeshond.org/"
+    "image_url": "https://media.istockphoto.com/id/515804572/photo/keeshond-1-year-old-sitting-in-front-of-white-background.jpg?s=612x612&w=0&k=20&c=Z3YWPrqdcNX1s_s6OLI4drSa0tHqYGIghq6fGZFSboQ="
   },
   {
-    "name": "kelpie",
+    "name": "Kelpie",
     "description": "Un câine de cioban australian, cunoscut pentru energia și inteligența sa.",
     "attributes": {
       "size": "Medie",
@@ -765,10 +765,10 @@
       "temperament": "Energic, inteligent, loial",
       "activity_level": "Foarte ridicată"
     },
-    "image_url": "https://www.ankc.org.au/breeds/australian-kelpie/"
+    "image_url": "https://cdn.pixabay.com/photo/2015/08/09/01/55/kelpie-881158_640.jpg"
   },
   {
-    "name": "kerry_blue_terrier",
+    "name": "Kerry Blue Terrier",
     "description": "Un terrier irlandez cu blană moale și ondulată, cunoscut pentru versatilitatea sa.",
     "attributes": {
       "size": "Medie",
@@ -777,10 +777,10 @@
       "temperament": "Inteligent, jucăuș, loial",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.kerryblues.info/"
+    "image_url": "https://thumbs.dreamstime.com/b/kerry-blue-terrier-front-white-background-75491582.jpg"
   },
   {
-    "name": "komondor",
+    "name": "Komondor",
     "description": "Un câine de păzire unguresc, cunoscut pentru blana sa în cordoane, asemănătoare cu un mop.",
     "attributes": {
       "size": "Foarte mare",
@@ -789,10 +789,10 @@
       "temperament": "Protectiv, independent, calm",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.komondor.org/"
+    "image_url": "https://thumbs.dreamstime.com/b/komondor-breed-dog-isolated-white-background-clear-soft-shadow-276840584.jpg"
   },
   {
-    "name": "kuvasz",
+    "name": "Kuvasz",
     "description": "Un câine de păzire maghiar, cunoscut pentru blana sa albă și natura sa loială și protectoare.",
     "attributes": {
       "size": "Foarte mare",
@@ -801,10 +801,10 @@
       "temperament": "Loial, protectiv, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.kuvasz.com/"
+    "image_url": "https://static9.depositphotos.com/1594920/1089/i/450/depositphotos_10895650-stock-photo-kuvasz-18-months-old-sitting.jpg"
   },
   {
-    "name": "labrador_retriever",
+    "name": "Labrador Retriever",
     "description": "Unul dintre cele mai populare câini din lume, cunoscut pentru natura sa prietenoasă și versatilitate.",
     "attributes": {
       "size": "Mare",
@@ -813,10 +813,10 @@
       "temperament": "Prietenoasă, inteligent, energic",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.thelabradorclub.com/"
+    "image_url": "https://media.istockphoto.com/id/122286715/ro/fotografie/white-labrador-retriever-pe-un-fundal-alb.jpg?s=612x612&w=0&k=20&c=RdLI-x8AdivIwCofS3_NR7eeFRNGyap6IIw9O_20_Z0="
   },
   {
-    "name": "lakeland_terrier",
+    "name": "Lakeland Terrier",
     "description": "Un terrier mic și robust, originar din Regatul Unit, cunoscut pentru personalitatea sa curajoasă.",
     "attributes": {
       "size": "Mică",
@@ -825,10 +825,10 @@
       "temperament": "Curajos, inteligent, independent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.lakelandterrierclub.org/"
+    "image_url": "https://media.istockphoto.com/id/1137940419/photo/lakeland-terrier-6-years-old-sitting-in-front-of-white-background.jpg?s=612x612&w=0&k=20&c=YaUgalvUndAKLxsaRwlL_3OWAaSlDfPZqOFifIjMghU="
   },
   {
-    "name": "leonberg",
+    "name": "Leonberg",
     "description": "Un câine masiv și blând, cunoscut pentru blana sa densă și natura sa prietenoasă.",
     "attributes": {
       "size": "Foarte mare",
@@ -837,10 +837,10 @@
       "temperament": "Prietenoasă, calm, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.leonbergerclub.org/"
+    "image_url": "https://thumbs.dreamstime.com/b/adult-sitting-massif-leonberg-dog-panting-isolated-white-313234718.jpg"
   },
   {
-    "name": "lhasa",
+    "name": "Lhasa",
     "description": "Un câine mic originar din Tibet, cunoscut pentru blana sa lungă și natura sa vigilentă.",
     "attributes": {
       "size": "Mică",
@@ -849,10 +849,10 @@
       "temperament": "Independent, vigilent, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.lhasaapso.org/"
+    "image_url": "https://st2.depositphotos.com/1004199/6176/i/450/depositphotos_61764539-stock-photo-lhasa-apso-on-a-white.jpg"
   },
   {
-    "name": "malamute",
+    "name": "Malamute",
     "description": "Un câine puternic folosit pentru tragerea saniei, cunoscut pentru rezistența sa la frig.",
     "attributes": {
       "size": "Foarte mare",
@@ -861,10 +861,10 @@
       "temperament": "Prietenoasă, loial, independent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.alaskanmalamute.org/"
+    "image_url": "https://st4.depositphotos.com/1594920/20081/i/450/depositphotos_200810074-stock-photo-young-alaskan-malamute-dog-looking.jpg"
   },
   {
-    "name": "malinois",
+    "name": "Malinois",
     "description": "Un câine de lucru inteligent și energic, folosit pe scară largă în operațiuni militare și de poliție.",
     "attributes": {
       "size": "Medie-Mare",
@@ -873,10 +873,10 @@
       "temperament": "Inteligent, energic, protectiv",
       "activity_level": "Foarte ridicată"
     },
-    "image_url": "https://www.malinoisclub.org/"
+    "image_url": "https://st2.depositphotos.com/1004199/9784/i/450/depositphotos_97843822-stock-photo-belgian-shepherd-dog-malinois.jpg"
   },
   {
-    "name": "maltese_dog",
+    "name": "Maltese Dog",
     "description": "Un câine mic cu blană lungă și albă, cunoscut pentru personalitatea sa afectuoasă și adaptabilă.",
     "attributes": {
       "size": "Mică",
@@ -885,10 +885,10 @@
       "temperament": "Afectuos, jucăuș, adaptabil",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.malteseclub.org/"
+    "image_url": "https://thumbs.dreamstime.com/b/maltese-dog-3-years-old-sitting-looking-27819160.jpg"
   },
   {
-    "name": "mexican_hairless",
+    "name": "Mexican Hairless",
     "description": "Un câine fără blană, originar din Mexic, cunoscut pentru pielea sa caldă și natura sa afectuoasă.",
     "attributes": {
       "size": "Mică-Medie",
@@ -897,10 +897,10 @@
       "temperament": "Afectuos, alert, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.xoloitzcuintle.com/"
+    "image_url": "https://st4.depositphotos.com/2767372/23470/i/450/depositphotos_234701884-stock-photo-american-hairless-terrier-dog-close.jpg"
   },
   {
-    "name": "miniature_pinscher",
+    "name": "Miniature Pinscher",
     "description": "Un câine mic și energic, cunoscut pentru personalitatea sa curajoasă și aspectul său elegant.",
     "attributes": {
       "size": "Mică",
@@ -909,10 +909,10 @@
       "temperament": "Curajos, energic, alert",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.minpin.org/"
+    "image_url": "https://st4.depositphotos.com/1032808/19807/i/450/depositphotos_198073516-stock-photo-miniature-pinscher-dog-standing-white.jpg"
   },
   {
-    "name": "miniature_poodle",
+    "name": "Miniature Poodle",
     "description": "O variantă mai mică a pudelului, cunoscută pentru inteligența sa și blana sa hipoalergenică.",
     "attributes": {
       "size": "Mică",
@@ -921,10 +921,10 @@
       "temperament": "Inteligent, activ, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.poodleclubofamerica.org/"
+    "image_url": "https://static7.depositphotos.com/1004199/740/i/450/depositphotos_7406032-stock-photo-white-toy-poodle-on-white.jpg"
   },
   {
-    "name": "miniature_schnauzer",
+    "name": "Miniature Schnauzer",
     "description": "Un terrier mic cu barbă distinctivă, cunoscut pentru personalitatea sa inteligentă și alertă.",
     "attributes": {
       "size": "Mică",
@@ -933,10 +933,10 @@
       "temperament": "Inteligent, alert, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.miniatureschnauzer.org/"
+    "image_url": "https://static6.depositphotos.com/1004199/628/i/450/depositphotos_6280486-stock-photo-miniature-schnauzer-puppy.jpg"
   },
   {
-    "name": "newfoundland",
+    "name": "Newfoundland",
     "description": "Un câine mare și blând, excelent înotător, cunoscut pentru natura sa salvatoare.",
     "attributes": {
       "size": "Foarte mare",
@@ -945,10 +945,10 @@
       "temperament": "Blând, calm, loial",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.newfdogclub.org/"
+    "image_url": "https://static5.depositphotos.com/1009420/409/i/450/depositphotos_4099748-stock-photo-brown-newfoundland-dog.jpg"
   },
   {
-    "name": "norfolk_terrier",
+    "name": "Norfolk Terrier",
     "description": "Un terrier mic și curajos, cunoscut pentru personalitatea sa veselă și adaptabilă.",
     "attributes": {
       "size": "Mică",
@@ -957,10 +957,10 @@
       "temperament": "Vesel, curajos, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.norfolkterrier.org/"
+    "image_url": "https://static.vecteezy.com/system/resources/previews/048/157/575/large_2x/cute-norfolk-terrier-puppy-posing-on-a-white-background-photo.jpg"
   },
   {
-    "name": "norwegian_elkhound",
+    "name": "Norwegian Elkhound",
     "description": "Un câine de vânătoare nordic, cunoscut pentru rezistența sa și blana sa densă.",
     "attributes": {
       "size": "Medie",
@@ -969,10 +969,10 @@
       "temperament": "Curajos, independent, loial",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.elkhound.org/"
+    "image_url": "https://www.purina.co.nz/sites/default/files/styles/ttt_image_510/public/2021-08/norwegian-elkhound.jpg?itok=PF05PN3R"
   },
   {
-    "name": "norwich_terrier",
+    "name": "Norwich Terrier",
     "description": "Un terrier mic și robust, cunoscut pentru urechile sale ascuțite și natura sa curajoasă.",
     "attributes": {
       "size": "Mică",
@@ -981,10 +981,10 @@
       "temperament": "Curajos, inteligent, afectuos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.norwichterrier.org/"
+    "image_url": "https://thumbs.dreamstime.com/b/norwich-terrier-short-haircut-posing-norwich-terrier-looking-adorable-posting-camera-head-tilt-high-key-white-background-319273846.jpg"
   },
   {
-    "name": "old_english_sheepdog",
+    "name": "Old English Sheepdog",
     "description": "Un câine mare cu blană lungă și zbârlită, cunoscut pentru personalitatea sa jucăușă și blândă.",
     "attributes": {
       "size": "Mare",
@@ -993,10 +993,10 @@
       "temperament": "Prietenoasă, jucăuș, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.oes.org/"
+    "image_url": "https://media.istockphoto.com/id/93209411/photo/front-view-of-a-white-and-gray-seated-bearded-collie.jpg?s=612x612&w=0&k=20&c=SiWjzFarHxZf6YwkYxOb7mQ8GEzWkRx9thXpLFuRCo0="
   },
   {
-    "name": "otterhound",
+    "name": "Otterhound",
     "description": "Un câine de vânătoare rar, cunoscut pentru blana sa rezistentă la apă și mirosul său excelent.",
     "attributes": {
       "size": "Mare",
@@ -1005,10 +1005,10 @@
       "temperament": "Prietenoasă, independent, jucăuș",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.otterhound.org/"
+    "image_url": "https://www.purina.co.uk/sites/default/files/breed_library/otterhound.jpg"
   },
   {
-    "name": "papillon",
+    "name": "Papillon",
     "description": "Un câine mic cu urechi asemănătoare cu aripi de fluture, cunoscut pentru inteligența sa.",
     "attributes": {
       "size": "Mică",
@@ -1017,10 +1017,10 @@
       "temperament": "Inteligent, activ, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.papillonclub.org/"
+    "image_url": "https://thumbs.dreamstime.com/b/c%C3%A2ine-papillon-pe-fond-alb-32964734.jpg"
   },
   {
-    "name": "pekinese",
+    "name": "Pekinese",
     "description": "Un câine mic și demn, originar din China, cunoscut pentru personalitatea sa independentă.",
     "attributes": {
       "size": "Mică",
@@ -1029,10 +1029,10 @@
       "temperament": "Independent, demn, loial",
       "activity_level": "Scăzută"
     },
-    "image_url": "https://www.pekingese.org/"
+    "image_url": "https://media.istockphoto.com/id/962869798/ro/fotografie/pekingese.jpg?s=170667a&w=0&k=20&c=qHawCEYSzSMMjJw9HSizamzPfKS2xcn0ddiIabniEaQ="
   },
   {
-    "name": "pembroke",
+    "name": "Pembroke",
     "description": "Unul dintre cei doi Corgi, cunoscut pentru picioarele scurte și personalitatea sa energică.",
     "attributes": {
       "size": "Mică",
@@ -1041,10 +1041,10 @@
       "temperament": "Inteligent, activ, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.pembrokecorgi.org/"
+    "image_url": "https://media.istockphoto.com/id/1137944486/ro/fotografie/pembroke-welsh-corgi-3-luni-st%C3%A2nd-%C3%AEn-fa%C8%9Ba-fundalului-alb.jpg?s=612x612&w=0&k=20&c=p1OpvPaujJUNSRGTaKUGJGA0_LMfnArKWZSpEhxGjVg="
   },
   {
-    "name": "pomeranian",
+    "name": "Pomeranian",
     "description": "Un câine mic și pufos, cunoscut pentru personalitatea sa extrovertită și blana sa luxoasă.",
     "attributes": {
       "size": "Mică",
@@ -1053,10 +1053,10 @@
       "temperament": "Extrovertit, inteligent, jucăuș",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.pomeranian.org/"
+    "image_url": "https://media.istockphoto.com/id/1127843349/ro/fotografie/crem%C4%83-%C8%99i-pomeranian-alb-c%C3%A2ine-pitic-spitz-izolat-pe-un-fundal-alb.jpg?s=612x612&w=0&k=20&c=3gaGtAYtj0gFpvt0bpVQ1gAYlQDOmROcYNqgI-fxKmo="
   },
   {
-    "name": "pug",
+    "name": "Pug",
     "description": "Un câine mic cu fața plină de expresie, cunoscut pentru personalitatea sa comică și afectuoasă.",
     "attributes": {
       "size": "Mică",
@@ -1065,10 +1065,10 @@
       "temperament": "Afectuos, vesel, adaptabil",
       "activity_level": "Scăzută"
     },
-    "image_url": "https://www.pugdogclub.org/"
+    "image_url": "https://st3.depositphotos.com/1177973/12546/i/950/depositphotos_125469920-stock-photo-pug-dog-on-a-white.jpg"
   },
   {
-    "name": "redbone",
+    "name": "Redbone",
     "description": "Un câine de vânătoare american, cunoscut pentru blana sa roșie și abilitățile sale de urmărire.",
     "attributes": {
       "size": "Medie-Mare",
@@ -1077,10 +1077,10 @@
       "temperament": "Prietenoasă, inteligent, energic",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.ukcdogs.com/redbone-coonhound"
+    "image_url": "https://images.ctfassets.net/qj2yxv39d6ig/5RHra3pVgESvPQGlodTJIR/1cf7df2cc52b29bcd8e4ceadf40764dd/Redbone_Coonhound_1000.jpg"
   },
   {
-    "name": "rhodesian_ridgeback",
+    "name": "Rhodesian Ridgeback",
     "description": "Un câine puternic și musculos, originar din Africa, cunoscut pentru creasta sa distinctivă pe spate.",
     "attributes": {
       "size": "Mare",
@@ -1089,10 +1089,10 @@
       "temperament": "Demn, inteligent, independent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.rrcus.org/"
+    "image_url": "https://st2.depositphotos.com/1004199/6722/i/450/depositphotos_67229633-stock-photo-rhodesian-ridgeback-dog-breed.jpg"
   },
   {
-    "name": "rottweiler",
+    "name": "Rottweiler",
     "description": "Un câine puternic și protectiv, folosit pe scară largă în serviciile de pază și poliție.",
     "attributes": {
       "size": "Mare",
@@ -1101,10 +1101,10 @@
       "temperament": "Protectiv, loial, calm",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.rottweilerclub.org/"
+    "image_url": "https://media.istockphoto.com/id/959848060/ro/fotografie/rottweiler-c%C3%A2ine-g%C3%A2f%C3%A2ind-a%C8%99ezat-pe-fundal-alb.jpg?s=612x612&w=0&k=20&c=XQJKHxcbpn61dx4QHFbmVEiSo5Sc38X8EWb2i5Zdy3w="
   },
   {
-    "name": "saint_bernard",
+    "name": "Saint Bernard",
     "description": "Un câine masiv și blând, cunoscut pentru rolul său în salvarea călătorilor prin zăpadă.",
     "attributes": {
       "size": "Foarte mare",
@@ -1113,10 +1113,10 @@
       "temperament": "Blând, prietenos, calm",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.saintbernardclub.org/"
+    "image_url": "https://static9.depositphotos.com/1594920/1088/i/450/depositphotos_10885823-stock-photo-saint-bernard-15-months-old.jpg"
   },
   {
-    "name": "saluki",
+    "name": "Saluki",
     "description": "Unul dintre cei mai vechi câini de curse, cunoscut pentru grația și viteza sa.",
     "attributes": {
       "size": "Mare",
@@ -1125,10 +1125,10 @@
       "temperament": "Demn, independent, calm",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.salukiclub.org/"
+    "image_url": "https://static9.depositphotos.com/1594920/1088/i/450/depositphotos_10889985-stock-photo-saluki-dog-12-years-old.jpg"
   },
   {
-    "name": "samoyed",
+    "name": "Samoyed",
     "description": "Un câine alb și zâmbitor, cunoscut pentru blana sa densă și natura sa prietenoasă.",
     "attributes": {
       "size": "Medie-Mare",
@@ -1137,10 +1137,10 @@
       "temperament": "Prietenoasă, inteligent, sociabil",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.samoyedclub.org/"
+    "image_url": "https://www.purina.ro/sites/default/files/2023-08/BREED%20Hero_0110_samoyed.jpg"
   },
   {
-    "name": "schipperke",
+    "name": "Schipperke",
     "description": "Un câine mic și fără coadă, originar din Belgia, cunoscut pentru personalitatea sa curioasă și energică.",
     "attributes": {
       "size": "Mică",
@@ -1149,10 +1149,10 @@
       "temperament": "Curios, energic, independent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.schipperkeclub.org/"
+    "image_url": "https://st.depositphotos.com/2744657/3947/i/450/depositphotos_39472421-stock-photo-schipperke-in-the-studio-on.jpg"
   },
   {
-    "name": "scotch_terrier",
+    "name": "Scotch Terrier",
     "description": "Un terrier scoțian cu barbă distinctivă, cunoscut pentru personalitatea sa independentă și curajoasă.",
     "attributes": {
       "size": "Mică",
@@ -1161,10 +1161,10 @@
       "temperament": "Independent, curajos, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.scottishterrierclub.org/"
+    "image_url": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/08153503/Scottish-Terrier-On-White-02.jpg"
   },
   {
-    "name": "scottish_deerhound",
+    "name": "Scottish Deerhound",
     "description": "Un câine de vânătoare înalt și grațios, cunoscut pentru viteza și natura sa blândă.",
     "attributes": {
       "size": "Foarte mare",
@@ -1173,10 +1173,10 @@
       "temperament": "Blând, demn, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.deerhound.org/"
+    "image_url": "https://st.depositphotos.com/1594920/2455/i/450/depositphotos_24550075-stock-photo-scottish-deerhound-looking-at-the.jpg"
   },
   {
-    "name": "sealyham_terrier",
+    "name": "Sealyham Terrier",
     "description": "Un terrier mic și robust, originar din Wales, cunoscut pentru personalitatea sa veselă.",
     "attributes": {
       "size": "Mică",
@@ -1185,10 +1185,10 @@
       "temperament": "Vesel, curajos, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.sealyhamterrier.org/"
+    "image_url": "https://media.istockphoto.com/id/1372523620/photo/sealyham-terrier-on-white-background.jpg?s=612x612&w=0&k=20&c=EnkW_OW7yeNN07IWpKCF52zg35Cfzu1uWTIB_4zyBFM="
   },
   {
-    "name": "shetland_sheepdog",
+    "name": "Shetland Sheepdog",
     "description": "Un câine de cioban mic, asemănător cu un Collie în miniatură, cunoscut pentru inteligența sa.",
     "attributes": {
       "size": "Mică-Medie",
@@ -1197,10 +1197,10 @@
       "temperament": "Inteligent, afectuos, alert",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.shetland-sheepdog.org/"
+    "image_url": "https://media.istockphoto.com/id/509092254/ro/fotografie/shetland-sheepdog-st%C3%A2nd-%C3%AEn-fa%C8%9Ba-unui-fundal-alb.jpg?s=170667a&w=0&k=20&c=AIlChJ5Ui5nm9h3_asmTCk29ENcNpq1AvYPlghujmzM="
   },
   {
-    "name": "shih-tzu",
+    "name": "Shih-Tzu",
     "description": "Un câine mic și afectuos, originar din Tibet, cunoscut pentru blana sa lungă și personalitatea sa veselă.",
     "attributes": {
       "size": "Mică",
@@ -1209,10 +1209,10 @@
       "temperament": "Afectuos, vesel, adaptabil",
       "activity_level": "Scăzută"
     },
-    "image_url": "https://www.shih-tzu.org/"
+    "image_url": "https://media.istockphoto.com/id/823837692/ro/fotografie/shih-tzu-st%C3%A2nd-pe-fundal-alb.jpg?s=612x612&w=0&k=20&c=8syzjauXIjex4dReoh_RbpiIju-gt2QsjQlU4JD-dbc="
   },
   {
-    "name": "siberian_husky",
+    "name": "Siberian Husky",
     "description": "Un câine de sanie rezistent la frig, cunoscut pentru energia sa și ochii săi albaștri sau heterocromi.",
     "attributes": {
       "size": "Medie-Mare",
@@ -1221,10 +1221,10 @@
       "temperament": "Prietenoasă, independent, energic",
       "activity_level": "Foarte ridicată"
     },
-    "image_url": "https://www.huskyclub.org/"
+    "image_url": "https://media.istockphoto.com/id/1137958074/ro/fotografie/siberian-husky-%C3%AEn-v%C3%A2rst%C4%83-de-9-luni-a%C8%99ezat-%C3%AEn-fa%C8%9Ba-fundalului-alb.jpg?s=612x612&w=0&k=20&c=ty-M73Zxqo4GtdnMw-GOOgMIn2XBcW62_eU-kVfOu28="
   },
   {
-    "name": "silky_terrier",
+    "name": "Silky Terrier",
     "description": "Un terrier mic cu blană mătăsoasă, cunoscut pentru personalitatea sa curajoasă și inteligentă.",
     "attributes": {
       "size": "Mică",
@@ -1233,10 +1233,10 @@
       "temperament": "Curajos, inteligent, alert",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.silkyterrier.org/"
+    "image_url": "https://t3.ftcdn.net/jpg/13/45/72/78/360_F_1345727835_OCViMCO6gLmVz9Yt26k9EYKBdBoT2qEN.jpg"
   },
   {
-    "name": "soft-coated_wheaten_terrier",
+    "name": "Soft-Coated Wheaten Terrier",
     "description": "Un terrier de talie medie cu blană moale și ondulată, cunoscut pentru natura sa afectuoasă.",
     "attributes": {
       "size": "Medie",
@@ -1245,10 +1245,10 @@
       "temperament": "Afectuos, jucăuș, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.wheaten.org/"
+    "image_url": "https://st2.depositphotos.com/2547911/9366/i/450/depositphotos_93661508-stock-photo-dog-irish-soft-coated-wheaten.jpg"
   },
   {
-    "name": "staffordshire_bullterrier",
+    "name": "Staffordshire Bullterrier",
     "description": "Un câine musculos și compact, cunoscut pentru curajul și loialitatea față de familie.",
     "attributes": {
       "size": "Medie",
@@ -1257,10 +1257,10 @@
       "temperament": "Curajos, loial, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.staffordshirebullterrierclub.org/"
+    "image_url": "https://cdn.royalcanin-weshare-online.io/RPoxx2oBIYfdNSoCvRnB/v1/bd108h-hub-staffordshire-bull-terrier-black-and-white"
   },
   {
-    "name": "standard_poodle",
+    "name": "Standard Poodle",
     "description": "Un câine inteligent și elegant, cunoscut pentru blana sa hipoalergenică și versatilitate.",
     "attributes": {
       "size": "Mare",
@@ -1269,10 +1269,10 @@
       "temperament": "Inteligent, activ, mândru",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.poodleclubofamerica.org/"
+    "image_url": "https://st2.depositphotos.com/1004592/6980/i/450/depositphotos_69800413-stock-photo-white-standard-poodle.jpg"
   },
   {
-    "name": "standard_schnauzer",
+    "name": "Standard Schnauzer",
     "description": "Un câine de talie medie cu barbă distinctivă, cunoscut pentru inteligența și loialitatea sa.",
     "attributes": {
       "size": "Medie",
@@ -1281,10 +1281,10 @@
       "temperament": "Inteligent, loial, protectiv",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.schnauzer.org/"
+    "image_url": "https://thumbs.dreamstime.com/b/vedere-lateral%C4%83-standard-%C3%AEn-picioare-schnauzer-vechi-de-luni-fa%C8%9Ba-fundalului-alb-12907613.jpg"
   },
   {
-    "name": "sussex_spaniel",
+    "name": "Sussex Spaniel",
     "description": "Un spaniel de talie medie, cunoscut pentru blana sa ondulată și natura sa calmă.",
     "attributes": {
       "size": "Medie",
@@ -1293,10 +1293,10 @@
       "temperament": "Calm, prietenos, inteligent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.sussexspaniel.org/"
+    "image_url": "https://www.akc.org/wp-content/uploads/2017/11/Sussex-Spaniel-On-White-01.jpg"
   },
   {
-    "name": "tibetan_mastiff",
+    "name": "Tibetan Mastiff",
     "description": "Un câine masiv și protectiv, originar din Tibet, cunoscut pentru blana sa densă și natura sa independentă.",
     "attributes": {
       "size": "Foarte mare",
@@ -1305,10 +1305,10 @@
       "temperament": "Protectiv, independent, demn",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.tibetanmastiff.org/"
+    "image_url": "https://st2.depositphotos.com/1545689/11757/i/450/depositphotos_117579166-stock-photo-beautiful-big-tibetan-mastiff-dog.jpg"
   },
   {
-    "name": "tibetan_terrier",
+    "name": "Tibetan Terrier",
     "description": "Un câine de talie medie cu blană lungă, originar din Tibet, cunoscut pentru personalitatea sa afectuoasă.",
     "attributes": {
       "size": "Medie",
@@ -1317,10 +1317,10 @@
       "temperament": "Afectuos, inteligent, sensibil",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.tibetanterrier.org/"
+    "image_url": "https://www.purina.ro/sites/default/files/2021-02/BREED%20Hero_0134_tibetan_terrier.jpg"
   },
   {
-    "name": "toy_poodle",
+    "name": "Toy Poodle",
     "description": "Cea mai mică variantă a pudelului, cunoscută pentru inteligența și adaptabilitatea sa.",
     "attributes": {
       "size": "Mică",
@@ -1329,10 +1329,10 @@
       "temperament": "Inteligent, activ, prietenos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.poodleclubofamerica.org/"
+    "image_url": "https://media.istockphoto.com/id/1267028033/ro/fotografie/toy-pudel-catelus-pe-fundal-alb.jpg?s=612x612&w=0&k=20&c=ztdDuX3GoAXrhYQTbuGCwebTAwftEAGx4s-QMDPO0h8="
   },
   {
-    "name": "toy_terrier",
+    "name": "Toy Terrier",
     "description": "Un câine mic și energic, cunoscut pentru personalitatea sa alertă și adaptabilă.",
     "attributes": {
       "size": "Mică",
@@ -1341,10 +1341,10 @@
       "temperament": "Alert, energic, afectuos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.toyterrier.org/"
+    "image_url": "https://www.hundeo.com/wp-content/uploads/2019/11/English-Toy-Terrier-Hunderasse-Profil.jpg"
   },
   {
-    "name": "vizsla",
+    "name": "Vizsla",
     "description": "Un câine de vânătoare maghiar, cunoscut pentru blana sa roșie-aurie și natura sa afectuoasă.",
     "attributes": {
       "size": "Medie-Mare",
@@ -1353,10 +1353,10 @@
       "temperament": "Afectuos, energic, inteligent",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.vizsla.org/"
+    "image_url": "https://www.akc.org/wp-content/uploads/2017/11/Vizsla-On-White-01.jpg"
   },
   {
-    "name": "walker_hound",
+    "name": "Walker Hound",
     "description": "Un câine de vânătoare american, cunoscut pentru abilitățile sale de urmărire și vocea sa distinctă.",
     "attributes": {
       "size": "Medie-Mare",
@@ -1365,10 +1365,10 @@
       "temperament": "Prietenoasă, inteligent, vocal",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.ukcdogs.com/treeing-walker-coonhound"
+    "image_url": "https://t4.ftcdn.net/jpg/10/11/57/83/360_F_1011578376_oHA04E1NPlmk5CSMFb2oPePUcWci4Mq1.jpg"
   },
   {
-    "name": "weimaraner",
+    "name": "Weimaraner",
     "description": "Un câine de vânătoare elegant, cunoscut pentru blana sa gri-argintie și ochii săi albaștri sau gri.",
     "attributes": {
       "size": "Mare",
@@ -1377,10 +1377,10 @@
       "temperament": "Inteligent, energic, loial",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.weimaranerclub.org/"
+    "image_url": "https://www.purina.ro/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0006_weimeraner.jpg?itok=9QhMN2sU"
   },
   {
-    "name": "welsh_springer_spaniel",
+    "name": "Welsh Springer Spaniel",
     "description": "Un spaniel de talie medie, originar din Wales, cunoscut pentru blana sa roșie și albă.",
     "attributes": {
       "size": "Medie",
@@ -1389,10 +1389,10 @@
       "temperament": "Prietenoasă, inteligent, activ",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.welshspringerspaniel.org/"
+    "image_url": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-08/Welsh-Springer-Spaniel.jpg?itok=p6DQF8WH"
   },
   {
-    "name": "west_highland_white_terrier",
+    "name": "West Highland White Terrier",
     "description": "Un terrier mic și alb, originar din Scoția, cunoscut pentru personalitatea sa curajoasă și veselă.",
     "attributes": {
       "size": "Mică",
@@ -1401,10 +1401,10 @@
       "temperament": "Curajos, vesel, independent",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.westieclub.org/"
+    "image_url": "https://st2.depositphotos.com/1004199/11209/i/950/depositphotos_112092134-stock-photo-highland-terrier-westie-on-white.jpg"
   },
   {
-    "name": "whippet",
+    "name": "Whippet",
     "description": "Un câine de curse de talie medie, cunoscut pentru viteza sa și natura sa blândă.",
     "attributes": {
       "size": "Medie",
@@ -1413,10 +1413,10 @@
       "temperament": "Blând, calm, afectuos",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.whippetclub.org/"
+    "image_url": "https://www.akc.org/wp-content/uploads/2017/11/Whippet-On-White-01.jpg"
   },
   {
-    "name": "wire-haired_fox_terrier",
+    "name": "Wire-Haired Fox Terrier",
     "description": "Un terrier mic cu blană aspră, cunoscut pentru personalitatea sa energică și curajoasă.",
     "attributes": {
       "size": "Mică",
@@ -1425,10 +1425,10 @@
       "temperament": "Curajos, inteligent, energic",
       "activity_level": "Ridicată"
     },
-    "image_url": "https://www.wirefoxterrier.org/"
+    "image_url": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-07/Fox-Terrier-Wire-Coat.jpg?itok=mRH-NQSl"
   },
   {
-    "name": "yorkshire_terrier",
+    "name": "Yorkshire Terrier",
     "description": "Un câine mic cu blană lungă și mătăsoasă, cunoscut pentru personalitatea sa curajoasă și încrezută.",
     "attributes": {
       "size": "Mică",
@@ -1437,6 +1437,6 @@
       "temperament": "Curajos, inteligent, afectuos",
       "activity_level": "Moderată"
     },
-    "image_url": "https://www.yorkshireterrier.org/"
+    "image_url": "https://www.purina.ro/sites/default/files/2023-10/BREED%20Hero_0141_yorkshire_terrier.jpg"
   }
 ]
