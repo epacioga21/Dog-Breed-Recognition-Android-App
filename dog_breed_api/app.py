@@ -9,7 +9,7 @@ import io
 app = Flask(__name__)
 
 # Încarcă modelul
-model = tf.keras.models.load_model(('dog_breed_model.h5'), custom_objects={'KerasLayer':hub.KerasLayer})  # schimbă cu calea ta
+model = tf.keras.models.load_model((models/'dog_breed_model.h5'), custom_objects={'KerasLayer':hub.KerasLayer})  # schimbă cu calea ta
 
 # Lista de clase (poate o iei dintr-un JSON sau listă salvata anterior)
 class_names = ['affenpinscher', 'afghan_hound', 'african_hunting_dog', 'airedale',
