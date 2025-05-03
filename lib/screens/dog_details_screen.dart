@@ -111,6 +111,13 @@ class DogDetailsScreen extends StatelessWidget {
   }
 
   Widget _buildAttributeSection(Map<String, dynamic> attributes) {
+    final Map<String, String> translatedKeys = {
+      'size': 'Mărime',
+      'lifespan': 'Durată de viață',
+      'weight': 'Greutate',
+      'activity_level': 'Nivel de activitate',
+    };
+
     List<String> displayAttributes = ['size', 'lifespan', 'weight', 'activity_level'];
 
     return Column(
@@ -126,37 +133,43 @@ class DogDetailsScreen extends StatelessWidget {
         ),
         SizedBox(height: 12),
 
-        GridView.count(
+        GridView.builder(
           shrinkWrap: true,
           physics: NeverScrollableScrollPhysics(),
-          crossAxisCount: 2,
-          childAspectRatio: 2.5,
-          crossAxisSpacing: 15,
-          mainAxisSpacing: 15,
-          children: displayAttributes.map((key) {
+          itemCount: displayAttributes.length,
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            mainAxisSpacing: 12,
+            crossAxisSpacing: 12,
+            mainAxisExtent: 80, // Înălțime fixă pentru fiecare card
+          ),
+          itemBuilder: (context, index) {
+            String key = displayAttributes[index];
             if (attributes.containsKey(key)) {
               return _buildAttributeItem(
-                key.replaceAll('_', ' ').toUpperCase(),
+                translatedKeys[key]!,
                 attributes[key].toString(),
               );
             }
             return SizedBox.shrink();
-          }).toList(),
+          },
         ),
       ],
     );
   }
+
 
   Widget _buildAttributeItem(String title, String value) {
     return Container(
       decoration: BoxDecoration(
         color: Colors.grey[50],
         borderRadius: BorderRadius.circular(10),
-        border: Border.all(color: Colors.black),
+        border: Border.all(color: Colors.black12),
       ),
-      padding: EdgeInsets.all(12),
+      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
             title,
@@ -166,18 +179,19 @@ class DogDetailsScreen extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
-          SizedBox(height: 4),
+          SizedBox(height: 6),
           Text(
             value,
             style: TextStyle(
               fontSize: 14,
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeight.w500,
             ),
           ),
         ],
       ),
     );
   }
+
 
   Widget _buildTemperamentSection(String temperament) {
     List<String> traits = temperament.split(',').map((t) => t.trim()).toList();

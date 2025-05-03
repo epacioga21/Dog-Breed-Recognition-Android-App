@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 class MLService {
-  final String apiUrl = 'http://192.168.0.103:5000/predict'; // înlocuiește cu IP-ul PC-ului în rețea
+  final String apiUrl = 'https://dog-breed-recognition-android-app.onrender.com/predict'; // înlocuiește cu IP-ul PC-ului în rețea
 
   Future<Map<String, dynamic>?> predictBreed(File imageFile) async {
     try {
