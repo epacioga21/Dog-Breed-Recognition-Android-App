@@ -43,7 +43,7 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
   Future<void> _initializeApp() async {
     try {
       _initializeCamera();
-      await _initializeModel();
+      setState(() => _isModelReady = true);
     } catch (e) {
       setState(() {
         _errorMessage = "Initialization error: $e";
@@ -97,14 +97,6 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
     }
   }
 
-  Future<void> _initializeModel() async {
-    setState(() => _isLoading = true);
-    await MLService.init();
-    setState(() {
-      _isModelReady = true;
-      _isLoading = false;
-    });
-  }
 
   Future<void> _captureImage() async {
     try {
@@ -132,20 +124,45 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
     if (_capturedImage == null) return;
 
     try {
-      final predictions = await MLService.predict(_capturedImage!);
+      setState(() => _isLoading = true);
 
-      final enriched = predictions.map((p) {
-        final match = _dogJson.firstWhere(
-              (dog) => dog['name'].toLowerCase() == p.getDisplayName().toLowerCase(),
-          orElse: () => {},
-        );
+      final result = await MLService().predictBreed(_capturedImage!);
 
+      if (result == null || !result.containsKey('predictions')) {
+        setState(() {
+          _errorMessage = "No predictions returned.";
+          _isLoading = false;
+        });
+        return;
+      }
+
+      // Extragem lista de predicții
+      final List<dynamic> rawPredictions = result['predictions'];
+      final List<Prediction> predictions = rawPredictions.map((p) {
         return Prediction(
-          breed: p.breed,
-          confidence: p.confidence,
-          formattedBreed: match['name'],
-          imageUrl: match['image_url'],
+          breed: p['breed'],
+          confidence: (p['confidence'] as num).toDouble(),
         );
+      }).toList();
+
+      // Îmbogățim predicțiile cu date din JSON
+      final enriched = predictions.map((p) {
+        final displayName = p.getDisplayName();
+        final match = _dogJson.firstWhere(
+              (dog) => dog['name'].toLowerCase() == displayName.toLowerCase(),
+          orElse: () => <String, dynamic>{},
+        );
+
+        if (match.isNotEmpty) {
+          return Prediction(
+            breed: p.breed,
+            confidence: p.confidence,
+            formattedBreed: match['name'],
+            imageUrl: match['image_url'],
+          );
+        } else {
+          return p;
+        }
       }).toList();
 
       setState(() {
