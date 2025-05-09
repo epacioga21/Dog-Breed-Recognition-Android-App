@@ -2,7 +2,34 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 
+
 class HomeScreen extends StatelessWidget {
+  // Listă cu denumirile raselor de câini common
+  final List<String> favoriteBreeds = [
+      'American Staffordshire Terrier',
+      'Basset',
+      'Beagle',
+      'Bernese Mountain Dog',
+      'Blenheim Spaniel',
+      'Border Collie',
+      'Chihuahua',
+      'Chow',
+      'Cocker Spaniel',
+      'Doberman',
+      'French Bulldog',
+      'Golden Retriever',
+      'Labrador Retriever',
+      'Malamute',
+      'Miniature Poodle',
+      'Pekinese',
+      'Pomeranian',
+      'Pug',
+      'Rottweiler',
+      'Shih-Tzu',
+      'Standard Poodle',
+      'Yorkshire Terrier',
+    ];
+
   // Funcția pentru a încărca fișierul JSON
   Future<List<dynamic>> loadDogBreeds() async {
     final String response = await rootBundle.loadString('assets/dog_breeds.json');
@@ -39,7 +66,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        'Cauta orice caine',
+                        'Caută orice rasă de câine',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
@@ -88,60 +115,19 @@ class HomeScreen extends StatelessWidget {
 
               SizedBox(height: 20),
 
-              // Tab Dogs
-              Container(
-                height: 40,
-                child: Row(
-                  children: [
-                    Container(
-                      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
-                      decoration: BoxDecoration(
-                        border: Border(
-                          bottom: BorderSide(
-                            color: Colors.blue,
-                            width: 3,
-                          ),
-                        ),
-                      ),
-                      child: Text(
-                        'Caini',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-
-              SizedBox(height: 20),
-
-              // Most Common Title
+              // Most Common Breeds
               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Cei mai dragalasi',
+                    'Cei mai întâlniți',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16,
                     ),
                   ),
-                  TextButton(
-                    onPressed: () {
-                      Navigator.pushNamed(context, '/view_all');
-                    },
-                    child: Text(
-                      'View all',
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontSize: 12,
-                      ),
-                    ),
-                  )
                 ],
               ),
+
 
               SizedBox(height: 15),
 
@@ -158,15 +144,17 @@ class HomeScreen extends StatelessWidget {
                       return Center(child: Text('No dog breeds available'));
                     }
 
-                    List<dynamic> breeds = snapshot.data!;
+                    List<dynamic> breeds = snapshot.data!
+                        .where((breed) => favoriteBreeds.contains(breed['name']))
+                        .toList();
                     return GridView.builder(
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
-                        childAspectRatio: 1.1,
-                        crossAxisSpacing: 10,
-                        mainAxisSpacing: 10,
+                        childAspectRatio: 0.8,
+                        crossAxisSpacing: 15,
+                        mainAxisSpacing: 15,
                       ),
-                      itemCount: breeds.length > 4 ? 4 : breeds.length,
+                      itemCount: breeds.length,
                       itemBuilder: (context, index) {
                         var breed = breeds[index];
                         return _buildDogCard(
@@ -187,51 +175,88 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.blue,
-        unselectedItemColor: Colors.grey,
-        showSelectedLabels: false,
-        showUnselectedLabels: false,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: GestureDetector(
-              onTap: () {
-                Navigator.pushNamed(context, '/camera');
-              },
-              child: Container(
-                padding: EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: Colors.blue,
-                  shape: BoxShape.circle,
-                ),
-                child: Icon(
-                  Icons.camera_alt,
-                  color: Colors.white,
+      bottomNavigationBar: SizedBox(
+        height: 90,
+        child: Stack(
+          alignment: Alignment.center,
+          clipBehavior: Clip.none,
+          children: [
+
+            Positioned.fill(
+              child: Image.asset(
+                'assets/icons/Path 1.png',
+                fit: BoxFit.cover,
+              ),
+            ),
+
+            // Buton cameră
+            Positioned(
+              top: -10,
+              child: GestureDetector(
+                onTap: () => Navigator.pushNamed(context, '/camera'),
+                child: Container(
+                  width: 60,
+                  height: 60,
+                  decoration: BoxDecoration(
+                    color: Colors.blue,
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black26,
+                        blurRadius: 6,
+                      ),
+                    ],
+                  ),
+                  child: Icon(
+                    Icons.camera_alt,
+                    color: Colors.white,
+                    size: 30,
+                  ),
                 ),
               ),
             ),
-            label: 'Camera',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.favorite_border),
-            label: 'Favorites',
-          ),
-        ],
+
+            // Icon All Breeds
+            Positioned(
+              left: 40,
+              bottom: 20,
+              child: GestureDetector(
+                onTap: () => Navigator.pushNamed(context, '/view_all'),
+                child: Image.asset(
+                  'assets/icons/allbreeds.png',
+                  height: 42,
+                  width: 42,
+                ),
+              ),
+            ),
+
+            // Icon Favorites
+            Positioned(
+              right: 40,
+              bottom: 20,
+              child: GestureDetector(
+                onTap: () => Navigator.pushNamed(context, '/favorites'),
+                child: Image.asset(
+                  'assets/icons/heart.png',
+                  height: 48,
+                  width: 48,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 
+
   Widget _buildDogCard(
-      BuildContext context,
-      String breed,
-      String description,
-      String imageUrl,
-      Map<String, dynamic> attributes,
-      ) {
+    BuildContext context,
+    String breed,
+    String description,
+    String imageUrl,
+    Map<String, dynamic> attributes,
+  ) {
     return GestureDetector(
       onTap: () {
         Navigator.pushNamed(
@@ -248,46 +273,89 @@ class HomeScreen extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,
-          borderRadius: BorderRadius.circular(15),
-          border: Border.all(color: Colors.grey[200]!),
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black12,
+              blurRadius: 6,
+              offset: Offset(0, 3),
+            ),
+          ],
         ),
-        padding: EdgeInsets.all(10),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
-              child: Center(
-                child: imageUrl.isNotEmpty
-                    ? Image.network(
-                  imageUrl,
-                  fit: BoxFit.cover,
-                  errorBuilder: (context, error, stackTrace) =>
-                      Icon(Icons.pets, size: 50, color: Colors.grey),
-                )
-                    : Icon(Icons.pets, size: 50, color: Colors.grey),
+              child: Stack(
+                children: [
+                  Center(
+                    child: imageUrl.isNotEmpty
+                        ? ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: Image.network(
+                              imageUrl,
+                              fit: BoxFit.cover,
+                              width: double.infinity,
+                              height: double.infinity,
+                              errorBuilder: (context, error, stackTrace) =>
+                                  Icon(Icons.pets, size: 50, color: Colors.grey),
+                            ),
+                          )
+                        : Icon(Icons.pets, size: 50, color: Colors.grey),
+                  ),
+                  Positioned(
+                    top: 8,
+                    right: 8,
+                    child: Container(
+                      padding: EdgeInsets.all(6),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withOpacity(0.8),
+                        shape: BoxShape.circle,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black26,
+                            blurRadius: 4,
+                          ),
+                        ],
+                      ),
+                      child: Icon(
+                        Icons.pets,
+                        color: Colors.black54,
+                        size: 24,
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
-            SizedBox(height: 8),
-            Text(
-              breed,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 14,
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    breed,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 14,
+                    ),
+                  ),
+                  SizedBox(height: 4),
+                  Text(
+                    description,
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 10,
+                    ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ],
               ),
-            ),
-            SizedBox(height: 2),
-            Text(
-              description,
-              style: TextStyle(
-                color: Colors.grey,
-                fontSize: 10,
-              ),
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
             ),
           ],
         ),
       ),
     );
   }
+
 }
