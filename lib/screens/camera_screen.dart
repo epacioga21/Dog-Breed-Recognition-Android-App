@@ -177,23 +177,48 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
     }
   }
 
-  void _retakePhoto() {
+  void _retakePhoto() async {
     setState(() {
       _capturedImage = null;
       _predictions = null;
       _errorMessage = null;
+      _isCameraReady = false;
     });
+
+    await _initializeCamera();
   }
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+
     return Scaffold(
-      appBar: AppBar(title: const Text("Dog Breed Identifier")),
-      body: SafeArea(child: _buildBody()),
+      extendBody: true,
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 0,
+        centerTitle: true,
+        title: const Text(
+          'Identificare rasă',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 21,
+            color: Colors.black,
+          ),
+        ),
+        iconTheme: const IconThemeData(color: Colors.black),
+      ),
+      body: SafeArea(
+        top: true,
+        bottom: false,
+        child: _buildBody(),
+      ),
       floatingActionButton: _capturedImage == null ? _buildCaptureButton() : null,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
+
 
   Widget _buildBody() {
     if (_errorMessage != null) return Center(child: Text(_errorMessage!));
@@ -230,27 +255,46 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
           flex: 2,
           child: Container(
             padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.white,
-              borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),
+              borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
               boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 10)],
             ),
             child: Column(
               children: [
-                const Text("Results", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                const Text(
+                  "Results",
+                  style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                  ),
+                ),
                 const SizedBox(height: 10),
                 Expanded(child: _buildPredictionsList()),
                 const SizedBox(height: 10),
-                ElevatedButton.icon(
-                  onPressed: _retakePhoto,
-                  icon: const Icon(Icons.refresh),
-                  label: const Text("Retake"),
-                ),
+                _buildRetakeButton(),
               ],
             ),
           ),
         ),
       ],
+    );
+  }
+
+  Widget _buildRetakeButton() {
+    return ElevatedButton.icon(
+      onPressed: _retakePhoto,
+      icon: const Icon(Icons.refresh, color: Colors.white),
+      label: const Text("Retake", style: TextStyle(color: Colors.white)),
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.blue,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(12),
+        ),
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+        elevation: 4,
+      ),
     );
   }
 
@@ -283,27 +327,57 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
               },
             );
           },
-          child: Card(
-            margin: const EdgeInsets.symmetric(vertical: 6),
+          child:
+          Card(
+            color: Colors.white,
+            margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 4),
+            elevation: 2,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
             child: ListTile(
+              contentPadding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
               leading: p.imageUrl != null
                   ? ClipRRect(
-                borderRadius: BorderRadius.circular(8),
-                child: Image.network(
-                  p.imageUrl!,
-                  width: 50,
-                  height: 50,
-                  fit: BoxFit.cover,
+                      borderRadius: BorderRadius.circular(8),
+                      child: Image.network(
+                        p.imageUrl!,
+                        width: 50,
+                        height: 50,
+                        fit: BoxFit.cover,
+                      ),
+                    )
+                  : const Icon(Icons.pets, size: 40, color: Colors.grey),
+              title: Text(
+                p.getDisplayName(),
+                style: const TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.black,
                 ),
-              )
-                  : const Icon(Icons.pets, size: 40),
-              title: Text(p.getDisplayName()),
-              subtitle: LinearProgressIndicator(
-                value: p.confidence,
-                color: _getConfidenceColor(p.confidence),
-                backgroundColor: Colors.grey[300],
               ),
-              trailing: Text("${(p.confidence * 100).toStringAsFixed(1)}%"),
+              subtitle: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const SizedBox(height: 4),
+                  LinearProgressIndicator(
+                    value: p.confidence,
+                    color: _getConfidenceColor(p.confidence),
+                    backgroundColor: Colors.grey[300],
+                    minHeight: 6,
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                  const SizedBox(height: 4),
+                ],
+              ),
+              trailing: Text(
+                "${(p.confidence * 100).toStringAsFixed(1)}%",
+                style: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.black87,
+                ),
+              ),
             ),
           ),
         );
@@ -318,9 +392,18 @@ class _CameraScreenState extends State<CameraScreen> with WidgetsBindingObserver
   }
 
   Widget _buildCaptureButton() {
-    return FloatingActionButton(
-      onPressed: _isCameraReady && !_isLoading ? _captureImage : null,
-      child: const Icon(Icons.camera_alt),
+    return Container(
+      margin: const EdgeInsets.only(bottom: 65),
+      width: 70,
+      height: 70,
+      child: FloatingActionButton(
+        onPressed: _isCameraReady && !_isLoading ? _captureImage : null,
+        backgroundColor: Colors.blue,
+        shape: const CircleBorder(),
+        elevation: 6,
+        child: const Icon(Icons.camera_alt, color: Colors.white, size: 32),
+      ),
     );
   }
+
 }

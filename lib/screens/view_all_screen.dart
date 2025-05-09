@@ -13,10 +13,20 @@ class ViewAllScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Toate rasele'),
-        centerTitle: true,
+        backgroundColor: Colors.white,
         elevation: 0,
+        centerTitle: true,
+        title: Text(
+          'Rasele disponibile',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+            color: Colors.black,
+          ),
+        ),
+        iconTheme: IconThemeData(color: Colors.black),
       ),
       body: FutureBuilder<List<dynamic>>(
         future: loadAllDogBreeds(),
@@ -24,20 +34,20 @@ class ViewAllScreen extends StatelessWidget {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
-            return Center(child: Text('Error loading data'));
+            return Center(child: Text('Eroare la încărcarea datelor'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return Center(child: Text('No dog breeds available'));
+            return Center(child: Text('Nu există rase disponibile'));
           }
 
           List<dynamic> breeds = snapshot.data!;
           return Padding(
-            padding: const EdgeInsets.all(12.0),
+            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 15.0),
             child: GridView.builder(
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
                 childAspectRatio: 0.8,
-                crossAxisSpacing: 12,
-                mainAxisSpacing: 12,
+                crossAxisSpacing: 15,
+                mainAxisSpacing: 15,
               ),
               itemCount: breeds.length,
               itemBuilder: (context, index) {
@@ -45,9 +55,7 @@ class ViewAllScreen extends StatelessWidget {
                 return _buildDogCard(
                   context,
                   breed['name'] ?? 'Unknown Breed',
-                  breed['description'] ??
-                      (breed['attributes']?['temperament'] as String?) ??
-                      'No description',
+                  breed['description'] ?? (breed['attributes']?['temperament'] as String?) ?? 'Fără descriere',
                   breed['image_url'] ?? '',
                   breed['attributes'] ?? {},
                 );
@@ -60,83 +68,112 @@ class ViewAllScreen extends StatelessWidget {
   }
 
   Widget _buildDogCard(
-      BuildContext context,
-      String breed,
-      String description,
-      String imageUrl,
-      Map<String, dynamic> attributes,
-      ) {
-    return Card(
-      elevation: 2,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(12),
-      ),
-      child: InkWell(
-        borderRadius: BorderRadius.circular(12),
-        onTap: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => DogDetailsScreen(),
-              settings: RouteSettings(
-                arguments: {
-                  'breed': breed,
-                  'description': description,
-                  'attributes': attributes,
-                  'imageUrl': imageUrl,
-                },
+    BuildContext context,
+    String breed,
+    String description,
+    String imageUrl,
+    Map<String, dynamic> attributes,
+  ) {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => DogDetailsScreen(),
+            settings: RouteSettings(
+              arguments: {
+                'breed': breed,
+                'description': description,
+                'attributes': attributes,
+                'imageUrl': imageUrl,
+              },
+            ),
+          ),
+        );
+      },
+      child: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(20),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black12,
+              blurRadius: 6,
+              offset: Offset(0, 3),
+            ),
+          ],
+        ),
+        child: Column(
+          children: [
+            Expanded(
+              child: Stack(
+                children: [
+                  ClipRRect(
+                    borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+                    child: imageUrl.isNotEmpty
+                        ? Image.network(
+                            imageUrl,
+                            width: double.infinity,
+                            height: double.infinity,
+                            fit: BoxFit.cover,
+                            errorBuilder: (context, error, stackTrace) =>
+                                Center(child: Icon(Icons.pets, size: 50, color: Colors.grey)),
+                          )
+                        : Center(child: Icon(Icons.pets, size: 50, color: Colors.grey)),
+                  ),
+                  Positioned(
+                    top: 8,
+                    right: 8,
+                    child: Container(
+                      padding: EdgeInsets.all(6),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withOpacity(0.9),
+                        shape: BoxShape.circle,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black26,
+                            blurRadius: 4,
+                          ),
+                        ],
+                      ),
+                      child: Icon(
+                        Icons.pets,
+                        color: Colors.black54,
+                        size: 20,
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
-          );
-        },
-        child: Padding(
-          padding: const EdgeInsets.all(10),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Imagine
-              Expanded(
-                child: Center(
-                  child: imageUrl.isNotEmpty
-                      ? ClipRRect(
-                    borderRadius: BorderRadius.circular(8),
-                    child: Image.network(
-                      imageUrl,
-                      fit: BoxFit.cover,
-                      width: double.infinity,
-                      errorBuilder: (context, error, stackTrace) =>
-                          Icon(Icons.pets, size: 50, color: Colors.grey),
+
+            // Nume si descriere
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    breed,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 14,
                     ),
-                  )
-                      : Icon(Icons.pets, size: 50, color: Colors.grey),
-                ),
+                  ),
+                  SizedBox(height: 4),
+                  Text(
+                    description,
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontSize: 10,
+                    ),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ],
               ),
-              SizedBox(height: 8),
-
-              // Numele rasei
-              Text(
-                breed,
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 14,
-                ),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
-              SizedBox(height: 4),
-
-              // Temperament/Descriere
-              Text(
-                description,
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 10,
-                ),
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
